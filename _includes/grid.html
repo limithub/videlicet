@@ -1,0 +1,18 @@
+<script src="https://unpkg.com/packery@2.1/dist/packery.pkgd.min.js"></script>
+<script src="https://npmcdn.com/draggabilly@2.1/dist/draggabilly.pkgd.min.js"></script>
+
+<script>
+// external js: packery.pkgd.js, draggabilly.pkgd.js
+
+var $grid = $('.grid').packery({
+  itemSelector: '.cell',
+  gutter: 10
+});
+
+// make all grid-items draggable
+$grid.find('.cell').each( function( i, gridItem ) {
+  var draggie = new Draggabilly( gridItem );
+  // bind drag events to Packery
+  $grid.packery( 'bindDraggabillyEvents', draggie );
+});
+</script>

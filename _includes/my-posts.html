@@ -1,0 +1,11 @@
+<!--TODO: this whole thing needs writing
+loop over authors -->
+{{ site.posts | sort: 'author' }}
+<section class="my posts list group">
+<h3>Articles by {{ page.author }}</h3>
+<ul>
+    {% for post in site.posts reversed %}
+     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </section>

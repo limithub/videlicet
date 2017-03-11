@@ -1,0 +1,25 @@
+---
+layout: default
+classes: [home, index]
+drop: [articles, longform]
+tools: [typeset]
+---
+
+<p class="splash typeset">
+<span class="slabtext">Welcome to</span>
+<span class="slabtext"><a href="{{ site.baseurl }}/articles">{{ site.title }}</a></span>
+<span class="slabtext">A one off Vidding Zine</span>
+<span class="slabtext"><time>March 4 2017</time></span>
+<span class="slabtext">Featuring</span>
+{% for person in site.people %}
+<a href="{{ person.url }}">{{ person.name }}</a>
+{% endfor %}
+<span class="slabtext">And Edited By</span>
+<span class="slabtext">lim</span>
+
+
+</p>
+
+
+
+

@@ -1,0 +1,53 @@
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH NOTE, switched to CDN
+ * -------------------------- */
+
+
+nav a:before, nav button:before, .socials a:before, ul[role="navigation"] a:before, p[role="navigation"] a:before, img.icon:after
+{font-family: 'FontAwesome'; display:inline-block;  width: 1.28571429em; text-align: center; padding:0.3rem 0.75rem;}
+
+ul.socials a:before { border-radius:9999px; color:#fff; padding:0.3rem; margin:0.1rem; transition: color 0.5s ease-out}
+ul.socials li:hover a:before {color:rgba(255,255,255,0.5) !important;}
+
+/* ===[ Icons ]=== */
+
+button[name="menu"]:before {content: "\f0c9"} /* bars */
+a[title="feed"]:before { content: "\f09e";}
+a[title="sitemap"]:before {content: "\f0e8"}
+a[title="legal"]:before {content: "\f19c"} /* library */
+
+img.icon:after { content: "\f007"; font-size:8rem; font-size:10vw} /*user*/
+
+/* NAV icons */
+a[title="home"]:before { content: "\f015";} /*house */
+a[title="about"]:before { content: "\f129";} /*info */
+a[title="contact"]:before { content: "\f1d8";} /*paper plane */
+a[title="all"]:before { content: "\f02d";} /*book */
+a[title="vids"]:before { content: "\f03d";} /*videocamera */
+a[title="vidders"]:before { content: "\f007";} /*user*/
+a[title="vidding"]:before { content: "\f085";} /*cogs */
+a[title="top"]:before { content: "\f01b";} /*arrow up */
+/*search { content:" \f002";} */
+
+a[title="contributors"]:before { content: "\f007";} /*user*/
+a[title="editor"]:before {content: "\f2dc";} /*snowflake */
+a[title="mep"]:before {content: "\f008";} /* film*/
+a[title="contact"]:before {content: "\f1d8";} /*paper plane */
+
+/* SOCIALS icons */
+a[title="facebook"]:before {content: "\f09a"; background:#3B5998;}
+a[title="youtube"]:before {content: "\f16a"; background:#D3262A;}
+a[title="twitter"]:before {content: "\f099"; background:#1DA1F3;}
+a[title="pinterest"]:before {content: "\f231"; background:#BD081C;}
+a[title="ao3"]:before {content:"\f004"; background:#990000}
+a[title="livejournal"]:before {content:"\f040"; background:#00B0EA;}
+a[title="dreamwidth"]:before {content:"\f040"; background:#C5353C;}
+a[title="tumblr"]:before {content:"\f173"; background: #36465D;}
+a[title="vimeo"]:before {content:"\f27d"; background:#1AB7EA;}
+a[title="ask"]:before {content:"\f128"; background:#FF643C;}
+a[title="website"]:before {content:"\f2dc"; background:#000;}
+/*MISC 
+article.featured:before{ content: "\f01a"; font-family: 'FontAwesome'; display:block;text-align:right; font-size:10vh; margin:-15vh 4vw auto}*/

@@ -1,0 +1,135 @@
+---
+---
+
+/* ===[ BASE ] === */
+article {background:#fff; font-family:"Libre Baskerville",Georgia,serif; font-weight:100; overflow:hidden; padding:0; margin:0; min-height:70vh; font-size:1.25rem}
+article a:link, article a:visited {font-weight:600; line-height:1; border-bottom:3px solid; color:rgb(210,115,150);}
+article a:visited {color:#999;}
+
+
+/* ==[header TODO replace with CSS like lists*/
+article header {font-size:0.75em; position:relative; margin:0; clear:both;}
+article header h2 {font-size:7vw; font-weight:900; margin:5rem auto auto 3rem;}
+article header ul, article header p {display:inline-block}
+article .authors li {display:inline-block; }
+.authors {text-align:center;}
+.hero {position:fixed; z-index:-1}
+.hero img{width:100%; height:auto;}
+
+article h2, article h3, article h4, article h5, article h6 {font-family:"Chivo", sans-serif; font-weight:900;}
+.copy {max-width:55rem; margin:auto; line-height:1.5; padding:3.5rem 3.5rem 1.75rem 3.5rem}
+.copy>p:first-of-type:first-line {font-variant: small-caps; font-feature-settings: "smcp" 1, "c2sc" 1;
+    letter-spacing: 0.0375em;}
+.copy>p:first-of-type:first-letter {font-size:3rem;font: 700 90px/68px "bromelloregular",serif; float: left; text-align: center; padding:5px 5px 20px; margin: 8px 5px }
+.copy li {list-style: disc; margin-left:-1em; text-indent:2em}
+.mid.copy p:first-of-type:first-letter {font-size:1.25rem;; float:none; font-family:"Libre Baskerville"; margin:0; padding:0; line-height:1.5;}
+.mid.copy p:first-of-type:first-line {font-variant:normal; letter-spacing: normal;}
+
+/* ===[ STORY BLOCK DEFAULTS ]
+*list:SPLASH, QUOTES, VIDEO, IMAGES, SLIDER, SLIDESHOW, FLIPBOOK, MAP, TIMELINE, FLOWCHART
+=== */
+/*[ splash ]*/
+.splash {position:relative; width:100vw; min-height:100vh; background-image:url(https://media.giphy.com/media/CmzGJFM5eMsyk/giphy.gif); background-size:cover; background-position:bottom; padding:1.5rem; background-color:#000; color:#fff;}
+
+/*[ quotes ]*/
+q,blockquote { quotes: "“" "”" "‘" "’";}
+q {font-style: italic;}
+cite {font-style:normal; font-size: small;}
+blockquote cite {display:block; text-align:right;}
+article blockquote { width:75%; margin:1.5rem auto; font-size:1.5rem; border:1px solid #ddd; border-right:0; border-left:0;}
+blockquote.long {}
+
+.splash blockquote, .splash h2,.splash h3, .splash h4, .splash div 
+{ padding:1rem; border:0; font-size:larger;text-shadow:1px 1px 0px #000;width:50%;position:absolute;top: 50%; left:50%; transform: translateY(-50%);  transform: translateX(-50%); perspective(1px) }
+.pullquote { max-width:25rem; font-size:3vw;padding:1.5rem; background:rgba(210,115,150,0.5);  box-shadow:10px 10px 0px rgb(210,115,150); border:0}
+.sidequote { max-width: 18rem; padding:1rem 0.5rem; border:6px double #fff; margin:auto 0.5rem;}
+.sidequote.left {margin-left:0;}
+.sidequote.right {margin-right:0;}
+.speechbubble { max-width:12em; min-height:3em; padding:2em 1em; margin:1em auto; text-align:center; border-radius:1.5rem; border:10px solid;}
+
+
+/*[ video ]*/
+.video { display: block; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; clear:both}
+.video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+figure iframe {min-height:460px;}
+
+/*[ audio ]*/
+
+/*[ images ]*/
+.image, .image img, figure img { width:100%; height:auto; }
+.right img {margin:1rem 0 1rem 1rem}
+.left img {margin:1rem 1rem 1rem 0}
+.parallax {height: 600px; height:50vw;  background-position: 50% 50%; background-repeat: no-repeat;background-attachment:fixed; background-size: cover;}
+.parallax .container {position:relative;}
+blockquote.parallax, .parallax h2, .parallax h3{ line-height:600px; line-height:50vw; text-align:center; color:#fff; font-size:5rem; font-size:8vw; word-break:keep-all; white-space: nowrap; text-shadow:0px 0px 1px #000; text-transform:uppercase}
+
+.mask {background-size: 49% auto; background-attachment: fixed; background-repeat: no-repeat;}
+.mask .copy {width:49%; margin-right:0}
+.tile {background-size: auto; background-repeat:repeat; background-position:top}
+.banner {background-clip: padding-box; background-repeat:no-repeat; background-position:top right; padding-top:45vh;}
+
+/*asides*/
+section aside {width:15vw; min-width:200px;
+	background:#ddd; padding:1rem; margin:1rem 0 1rem 1rem; float:right; font-size:1rem}
+aside.wider {width:33vw;}
+aside h5 { font-size: 2rem; margin:0}
+aside figure {margin: 0; overflow:hidden;}
+aside p {margin:0.5rem 1.5rem}
+hr {clear:both;  margin:2.5em auto; color:rgb(210,115,150); border-style:solid}
+/*aside resets*/
+aside.right img, aside.left img {margin:auto;}
+aside.full {float:none; width:90%; margin:auto;}
+
+/*[ slider ] currently using juxtapose but might switch*/
+.slider iframe{min-height:100%;}
+/*[ slideshow ]*/
+.slideshow {margin-bottom:3.5rem;}
+/*[ flipbook]*/
+.flipbook {}
+
+/*[ map ]*/
+.map iframe{min-height:30vh;}
+/*[ timeline ]*/
+.timeline {}
+/*[ flowchart ]*/
+.flowchart {}
+/*[ generic chat ]*/
+.chat {font-family: monospace; opacity:0.9;}
+.chat li {list-style: none}
+
+
+/*[ social media embeds ]*/
+.embed.twitter {}
+.embed.instagram {}
+
+.sketchfab iframe {width:100%; height:100%;}
+.sketchfab p {text-align:right; font-size:smaller;}
+
+/* ===[ block globals ] === */
+/*colours, shapes etc */
+.invert {background:#4d394b; color:#f7f7f7;}
+.invert .invert {background:white; color:#4d394b;}
+
+.slope {transform: rotate(5deg); padding:1.5rem 15vw; margin:auto -15vw;}
+.slope section {transform: rotate(-5deg);}
+
+.round {border-radius:50%;}
+
+.flow {display:inline-block;}
+.block {display:block}
+.left {float:left;}
+.right {float:right;}
+.clear-left {clear:left;}
+.clear-right {clear:right;}
+.clear {clear:both;}
+.full {width:100vw;}
+.viewport {height:100vh; width:100vw; position:relative;}
+.columns {display:flex;}
+.column { padding:0 1.5rem}
+.bigger {font-size:larger;}
+.typeset {font-family:Oswald, sans-serif; font-weight:900; text-transform: uppercase; line-height: 1}
+
+/* ===[ IMPORT COMPONENTS ] === */
+.reset {height:auto; width:auto; font-size:1rem; margin:auto;; padding:initial;}
+
+

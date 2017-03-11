@@ -1,0 +1,5 @@
+---
+---
+{% for post in site.posts %}
+#{{post.id | slugify}} {background-size:cover; background-image: url("{% if post.hero %}/assets/pics/heroes/{{post.hero }} {% else %} {{ site.defaultpic }} {% endif %}"); font-family:{{ post.font}};} 
+{% endfor %}

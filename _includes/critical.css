@@ -1,0 +1,4 @@
+html, body {font: normal 100%/1.25 "Libre Baskerville", Cardo,Georgia,serif; height: 100%; margin: 0; padding: 0; color: #4d394b; }
+a, a:link, button { text-decoration: none; color:inherit; font-weight: normal; transition:color ease 0.3s}
+a:hover {color:rgba(50,190,190,0.7)}
+h1,h2,h3,h4,h5, button,dt {font-family:Chivo,Helvetica, sans-serif; line-height:1;}

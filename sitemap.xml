@@ -1,0 +1,44 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for post in site.categories.blog %}
+    {% unless post.noindex %}
+    <url>
+        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ post.date | date:"%F" }}</lastmod>
+    </url>
+    {% endunless %}
+    {% endfor %}
+
+    {% for post in site.categories.about %}
+    {% unless post.noindex %}
+    <url>
+        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ post.date }}</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    {% endunless %}
+    {% endfor %}
+
+
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.noindex != true %}
+    {% if page.feed != true %}
+    <url>
+        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ site.time | date:"%F" }}</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</urlset>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{% if page.layout %}{{ page.layout }}{% endif %}
+  {% assign class = page.classes %}{% if page.classes %}{%for class in page.classes %}{{ class }} {% endfor %} {% endif %}">
+
+    <header class="site" role="banner">
+      <h1><a href="{{ site.baseurl }}/" rel="home" data-letters="{{ site.title }}" class="brand">{{ site.title }}</a></h1>
+      <nav role="navigation">
+        <h2><button name="menu"></button></h2>
+        <ul class="hidden">
+          {% assign url = page.url %}
+          {% for link in site.nav %}
+          <li{% if url contains link.url %} class="current"{% endif %}>
+            <a href="{{link.url}}" title="{{link.text}}"><span class="text">{{link.text}}</span></a>
+            </li>
+            {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <main role="main" id="top">
+        {{ content }}
+      </main>
+    <footer class="site" role="contentinfo"></footer>
+    {% include js.html %}
+        
+  </body>
+</html>

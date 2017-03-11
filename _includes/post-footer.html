@@ -1,0 +1,5 @@
+<footer>
+{% if post.footnotes %} {{ post.footnotes | markdownify }} {% endif %}
+{% include authors.html %}
+<p role="navigation"><a href="#top" title="top"><span class="text">Top</span></a></p>
+</footer>

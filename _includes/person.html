@@ -1,0 +1,30 @@
+
+<div class="person group">
+<h4 title="name"><a href="{{ person.url }}">{{ person.name }}</a></h4>
+<a href="{{ person.url }}"><img class="icon" src="{{ site.baseurl }}/assets/pics/site/icons/{{ person.icon }}" alt="" /></a>
+
+<div class="posts">
+<h5>Posts:</h5>
+<ul class="authored post list">
+{% assign by = person.name %}
+{% for post in site.posts %}
+	{% if post.authors contains {{by}} %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<blockquote title="bio">{{ person.bio | markdownify }}</blockquote>
+
+<ul class="socials group">
+{% for social in person.socials %}
+<li class="{{social.site}}"><a title="{{social.site}}" href="{{social.url}}"><span>{{ social.site}}</span></a></li>
+{% endfor %}
+</ul>
+
+
+
+</div>
+
+

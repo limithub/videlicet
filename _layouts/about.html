@@ -1,0 +1,19 @@
+---
+layout: page
+category: about
+---
+<nav>
+ 	<ul>
+ 	{% assign current = page.url %}
+ 	{% assign alphabetised = site.categories.about | sort: 'title' %}
+		{% for post in alphabetised %}
+	 		<li {% if current == post.url %} class="current"{% endif %}>
+	 		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	 	{% endfor %}
+	</ul>
+</nav>
+
+{{ content | markdownify }}
+
+
+

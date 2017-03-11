@@ -1,0 +1,7 @@
+<ul class="authors group">
+{% for author in page.authors %}
+<li class="author">
+<a href="/people/{{author}}"  itemprop="author" itemscope itemtype="http://schema.org/Person">{{ author }}</a>
+</li>
+{% endfor %}
+</ul>

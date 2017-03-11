@@ -1,0 +1,103 @@
+---
+---
+@font-face {
+    font-family: 'bromelloregular';
+    src: url('../fonts/bromello-webfont.woff2') format('woff2'),
+         url('../fonts/bromello-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ===[ Globals ]=== 
+4d394b - dark purple 65,45,60
+210,115,150 - pink
+*/
+html, body {font: normal 100%/1.25 "Libre Baskerville", Cardo,Georgia,serif; height: 100%; margin: 0; padding: 0; color: #4d394b; }
+a, a:link, button { text-decoration: none; color:inherit; font-weight: normal; transition:color ease 0.3s}
+a:hover {color:rgb(210,115,150)}
+h1,h2,h3,h4,h5, button,dt {font-family:Chivo,Helvetica, sans-serif; line-height:1;}
+.landmark{font-size:0;opacity:0}
+ul { list-style:none; }
+.cell img, iframe {width:100%; height:auto; }
+q, blockquote { quotes: "\201C" "\201D" "\2018" "\2019";}
+figcaption {font-size:smaller;}
+button {border:0; background:none; font-size:1.5rem; }
+
+/* ===[ Forms ]=== */
+form {max-width:65rem; margin:auto;}
+form input, textarea{width:95%; border:1px solid #ccc; line-height:2}
+form dl {margin-top:2rem; background:#ddd; padding:1rem 2.5rem 1rem 1rem; color:#fff;}
+input[type="submit"]{ background:rgb(210,115,150); color:#fff; font:1rem "Work Sans",Futura,sans-serif; margin:1rem auto; border:1px solid #fff; padding:1rem; border-radius:5vw }
+input[type="submit"]:hover {background:#4d394b;}
+
+/* ===[ Regions ]=== */
+
+.wrapper {min-height:70vh;}
+
+/* ===[ Header ]=== */
+header.site { position:fixed; z-index:100;width:100%; width:100vw;top:0; background:rgba(255,255,255,0.95);}
+header.site a:hover, .site button:hover { transition: color 0.3s ease; }
+.site h1 {float:left; padding:1rem; margin:0; font-family: "bromelloregular";}
+header h2 {margin:0}
+
+/* ===[ Nav ]=== */
+.site nav { float:right; margin-right:1rem; padding:0.5rem; font-family:"Work Sans", sans-serif;}
+button[name="menu"] { padding:0.2rem 0.5rem 0.2rem 0; }
+.site nav ul, nav ul ul{ margin: 0; padding:0; border-radius:0.2vh;}
+.site nav ul {position:absolute; right:0; background:#fff; display:none;}
+.site nav a {display:block; margin:0.2rem; width:9em; transition: background 0.4s ease;}
+.site nav ul a:hover {background:rgb(65,45,60); color:#f7f7f7;}
+.site nav:hover .hidden{display:block; }
+.page nav {margin-top:5vw;}
+.page nav, nav.posts {text-align:center;}
+.page nav li {display:inline;}
+nav .current {text-decoration:underline;}
+
+/* ===[ Footer ]=== */
+article footer {clear:both; padding:3vw;}
+footer p[role="navigation"] {text-align:right; font-size:3vw;}
+footer p[role="navigation"] span.text {display:none;}
+
+ /* ===[ Lists ]=== */
+ul.posts {margin:auto; max-width:95%; padding-top:100px;}
+
+li.cell {display: inline-block; opacity:0.8;float:left; width:100px; height:200px; padding:2vw; min-height:100px; background-color:rgb(65,45,60);
+position:relative; transition: background .25s ease-in-out;}
+li.wide {width:200px;}
+li.tall {height:300px}
+
+ul.posts li:hover {background-color:rgba(210,115,150,1); background-image:none !important;}
+ul.posts blockquote {margin:auto 0; display:none;}
+.cell h4 {text-transform:uppercase; color:#fff; font-weight:100;font-family:Oswald;}
+
+{% for post in site.posts %}
+#{{post.id | slugify}} {background-color:{% cycle '#412d3c', '#55974a', '#FFCC1','#187b9b', '#974a86', '#4a6097', '#8B7D7B' %};
+background-image: url("{% if post.hero %}{{site.baseurl}}/assets/pics/heroes/480/{{post.hero }}{% endif %}"); 
+
+{% if post.fonts %}font-family:{{ post.fonts | first | append ", sans-serif;"}} color: {{post.color}}  {% endif %} }
+{% endfor %}
+
+ /*===[ Site Pages: Home, About, People etc; ] ==*/
+
+.page .content {overflow:hidden; margin:auto; max-width:65rem;}
+
+ul.people {max-width:65rem; margin:auto;}
+div.person {overflow: hidden; position:relative;}
+.person h4 {font-family:"bromelloregular", Chivo, Georgia, serif; font-size:3vw;; text-align:center;}
+.icon {width:12em; height:12em; height:15vw; width:15vw;border:2px solid; float:left; margin:auto 1rem 1rem auto; border-radius:50%;}
+.person h5,ul.authored {display:inline-block;}
+
+.authored li:after {content:" | ";}
+ul.authored li:last-child:after {content:"";}
+
+ul.socials {text-align:center; margin:auto;}
+ul.socials li, .authored li {display:inline}
+.socials span {display:none;}
+
+p.splash {max-width:75vw; height:600px; margin:2vw auto; line-height:0.9; font-family:"League Gothic",Oswald; text-transform:uppercase;}
+p.splash span:nth-child(even) {line-height:0.8; color:rgb(210,115,150)}
+p.splash span:last-child {font-family:"bromelloregular"; text-transform:lowercase; line-height:0.7; transform:rotate(5deg); }
+
+
+

@@ -1,0 +1,52 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="robots" content="noindex,nofollow"/>
+  <meta name="description" content="{% if page.pitch %}{{ page.pitch | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" 
+   content="{% if page.tags %}{{ page.tags | escape | join ', ' | truncate: 160 }}{% else %}{{ site.keywords | join ', ' }}{% endif %}">
+ 
+
+  <style type="text/css"><!--
+  {% include critical.css %}
+  --></style>
+  
+
+    {% unless page.drop contains 'main' %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    {% else %}
+    <!--main styles dropped-->
+    {% endunless %}
+    {% unless page.drop contains 'longform' %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/longform.css">
+    {% else %}
+    <!--longform styles dropped-->
+    {% endunless %}
+  
+
+
+  
+
+  {% if page.tools %}
+  <!--link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tools.css"-->
+   {% endif %}
+
+  {% if page.tools contains "slider" %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/slider.css">
+   {% endif %}
+   {% if page.tools contains "slideshow" %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/flexslider.css">
+   {% endif %}
+  
+
+ <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/icons.css">
+ <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/response.css">
+  <!--DANGER WILL ROBINSON-->{{ page.resources }}
+  <style type="text/css"><!-- {{ page.code }} --></style>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

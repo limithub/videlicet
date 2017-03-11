@@ -1,0 +1,22 @@
+ {% include fonts.html %}
+<!-- jQuery Version -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/assets/js/jquery.easing.min.js"></script>
+{% include lazy.html %}
+
+<!--possible tools: grid, scrollify, slider, slideshow, splitshow, timeline, typeset, youtube. 
+Scrollify has to come last so we sort it here
+TODO: Packery (grid) has to come before Slabtext (typeset) but want a dryer method (not alphasort - too mysterious)-->
+
+{% for tool in page.tools %}
+	{% if tool != "scrollify" %}
+		{% include {{tool}}.html %}
+	{% endif %}
+{% endfor %}
+
+
+{% if page.tools contains "scrollify" %}
+		{% include scrollify.html %}
+{% endif %}
+
+

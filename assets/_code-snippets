@@ -1,0 +1,71 @@
+<div class="youtube-player" data-id="VIDEO_ID"></div>
+
+* Seven Nation Army (Multi), VVC 2009 <div class="youtube-player" data-id="_yDRfVgTcYw"></div>
+* Angel With An Attitude (Pushing Daisies) Feb. 2008 <div class="youtube-player" data-id="bs1iR5nVSS0"></div>
+* [Smile](https://archiveofourown.org/works/185663) (BtVS/AtS) 2004 (2009 remaster)
+* Still Breathing (BtVS/AtS) June 2007 <div class="youtube-player" data-id="uacToU6M3JI"></div>
+* Unnatural Selection (Multi) March 2009 <div class="youtube-player" data-id="8vxQl7977BE"></div>
+* Club Foot (Life On Mars) May 2006 <div class="youtube-player" data-id="dI2U178FUeE"></div>
+* Protege Moi (Supernatural) October 2006 <div class="youtube-player" data-id="_E9KVgYGK4c"></div>
+* Candleburn (Firefly) September 2006 <div class="youtube-player" data-id="_8iqCj95FtQ"></div>
+* Birth of a Geisha (Memoirs of a Geisha) April 2007 <div class="youtube-player" data-id="1MWJVwf18GI"></div>
+* Tanglewood Tree (Fingersmith) VVC 2008 <div class="youtube-player" data-id="Wu8E5vOPmBg"></div>
+* Boom Boom Ba (Xena) October 2004 <div class="youtube-player" data-id="ESdr2RG05ZU"></div>
+* Mambo Italiano (Alias) July 2006 <div class="youtube-player" data-id="bRhYCJULhZ8"></div>
+* I'm Your Man (Multi) July 2008 <div class="youtube-player" data-id="0cAb1OAb93w"></div>
+* No Bravery (Troy) Sept. 2005 <div class="youtube-player" data-id="lz-GvAe8QmE"></div>
+
+
+h2.title {font:10vw "Telegrafico"; text-transform:uppercase; text-align:center; border:1px solid #111; 
+ color: rgba(255,255,255,0.5); transition: all 2s; animation: neon1 1.5s ease-in-out infinite alternate;}
+ @keyframes neon1 {
+ from {
+   text-shadow: 0 0 5px white, 0 0 20px white, 0 0 30px white, 0 0 40px yellow, 0 0 70px yellow, 0 0 80px red, 0 0 100px orange, 0 0 150px red;
+ }
+ to {
+   text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px orange, 0 0 35px yellow, 0 0 40px yellow, 0 0 50px red, 0 0 75px pink;
+ } }
+
+{% if page.components contains "typeset" %} {% include typeset-instance.html %} {% endif%}
+ /* ===[ Lists ]=== */
+ul.posts {display:flex; flex-flow:row wrap;}
+li.cell {display: inline-block; width:33%; padding:2vw; flex: 1 0 25%; transition:background ease 1s;}
+ul.posts li:hover {background:rgba(210,115,150,1);}
+ul.posts blockquote {margin:auto 0}
+ul.posts .datetime {display:none;}
+.cell h4 {margin:0;}
+
+
+ {% if page.highlighter %} <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/code.css">{% endif %}
+  {% if page.slider %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/juxtapose.css">{% endif %}
+  {% if page.slideshow %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/flexslider.css">{% endif %}
+  {% if page.splitshow %}<link rel="stylesheet" href="/assets/css/css/style.css">{% endif %}
+  
+
+  {% include lazy-instance.html %}
+{% include youtube-instance.html %}
+{% include scrollify-instance.html %}
+{% if page.slider %}<script src="{{ site.baseurl}}/assets/js/juxtapose.js"></script>{% endif %}
+{% if page.slideshow %}
+ <script src="{{ site.baseurl}}/assets/js/jquery.flexslider.js"></script>
+ {% include slideshow-instance.html %} 
+ {% endif %}
+{% if page.timeline %} {% include timeline-instance.html %} {% endif%}
+{% if page.typeset %} {% include typeset-instance.html %} {% endif%}
+{% if page.splitshow %}
+ <script type="text/javascript" src="/assets/js/jquery.ba-cond.min.js"></script>
+ <script type="text/javascript" src="/assets/js/jquery.slitslider.js"></script> {% include splitshow-instance.html %} {% endif %}
+
+
+CODE FOR PACKERY POSTERS
+{% if post.heading %}{{ post.heading }} {% else %} {{ post.title }}{% endif %}
+ /* ===[ Lists ]=== */
+ul.posts {display:table; display:flex; flex-flow:row wrap; margin:0; padding:0; height:100vh;}
+li.cell {display:table-cell; display: inline-block; width:33%;;padding:1.5rem; flex: 1 0 25%; border:1px solid white;  
+	position:relative;}
+ul.posts li:hover blockquote{display:block}
+.cell blockquote{display:none ; position:absolute; background:rgba(255,255,255,0.1); width:100%; height:100%; top:0; padding:1rem; margin:0;color:#000; transition:background ease 1s;}
+li.cell:hover blockquote {display:block; background:rgba(255,255,255,0.9)}
+.cell h4 {color:#fff; text-shadow:1px 1px 0px #000; text-align:center;font-family:"Oswald"; text-transform:uppercase;}
+
+
