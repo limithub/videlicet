@@ -8,7 +8,7 @@ permalink: /about/people/
 
 <ul class="people">
 {% for person in site.people %}
-<li>{% include person.html %}</li>
+<li id="{{ person.name }}">{% include person.html %}</li>
 {% endfor %}
 </ul>
 
