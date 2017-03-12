@@ -82,8 +82,8 @@ aside.full {float:none; width:90%; margin:auto;}
 
 /*[ slider ] currently using juxtapose but might switch*/
 .slider iframe{min-height:100%;}
-/*[ slideshow ]*/
-.slideshow {margin-bottom:3.5rem;}
+/*[ slideshow ] using unslider*/
+
 /*[ flipbook]*/
 .flipbook {}
 

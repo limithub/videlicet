@@ -1,11 +1,8 @@
-<!-- Note, this slidehow is flexslider: http://flexslider.woothemes.com/
-Might switch to Flickity: http://flickity.metafizzy.co/ but rn it looks like it requires more html markup and am keeping that to a minimum for ease of GUI generation later-->
-<script src="/assets/js/jquery.flexslider.js"></script>
-<script type="text/javascript" charset="utf-8">
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
-</script>
+<!-- unslider-->
+<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+<script src="/assets/js/unslider.js"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('.slideshow').unslider();
+		});
+	</script>

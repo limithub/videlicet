@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{% if page.layout %}{{ page.layout }}{% endif %}
-  {% assign class = page.classes %}{% if page.classes %}{%for class in page.classes %}{{ class }} {% endfor %} {% endif %}">
+  <body class="{% if page.layout %}{{ page.layout }}{% endif %}{% assign class = page.classes %}{% if page.classes %}{%for class in page.classes %}{{ class }} {% endfor %} {% endif %}">
 
     <header class="site" role="banner">
       <h1><a href="{{ site.baseurl }}/" rel="home" data-letters="{{ site.title }}" class="brand">{{ site.title }}</a></h1>
