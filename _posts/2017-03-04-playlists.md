@@ -7,10 +7,7 @@ pitch: |
 hero: giphy-terrorvision.gif
 tools: [slideshow]
 categories: [articles, vidding, resources]
-code: |
- article header, article footer {display:none}
- header.site {background:rgba(255,255,255,0); margin-top:-50px; opacity:0; transition: all 2s ease}
- header.site:hover {margin-top:0; opacity:1; background:rgba(255,255,255,0.95)}
+classes: [solo]
 ---
 
 

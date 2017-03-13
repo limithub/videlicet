@@ -8,30 +8,9 @@ heading: |
  <span class="slabtext">Demystifying</span> <span class="slabtext">Vidding</span>
 hero: default.jpg
 tools: [scrollify, slideshow]
-fonts: [Oswald]
-resources: |
- <script>
-    $(window).load(function() {
-  // The slider being synced must be initialized first
-  $('#carousel').flexslider({
-    animation: "slide",
-    controlNav: false,
-    animationLoop: false,
-    slideshow: false,
-    itemWidth: 210,
-    itemMargin: 5,
-    asNavFor: '#slider'
-  });
- 
-  $('#slider').flexslider({
-    animation: "slide",
-    controlNav: false,
-    animationLoop: false,
-    slideshow: false,
-    sync: "#carousel"
-  });
-    });</script>
+fonts: ["Oswald", "Rock Salt"]
 code: |
+ .hand {font-family:"Rock Salt", sans-serif; font-size:larger;}
 categories: [articles, vidding]
 ---
 <section class="copy" markdown="1">
@@ -39,12 +18,8 @@ This is [a post from my tumblr](http://limvids.tumblr.com/post/139653063417/demy
 </section>
 <section class="copy" markdown="1">
 
-<blockquote class="pullquote">
-<p>We can’t really tell you how to pick the perfect scene, because 95% of scene selection is intuition.</p>
-<p>~ fanvidbasics</p>
-</blockquote>
+> We can’t really tell you how to pick the perfect scene, because 95% of scene selection is intuition. <br/>~ fanvidbasics
 
-(Can’t reblog the ask cause my reply is too long and tumblr will tumblr so I guess Anon won’t see this but I may as well post it now I’ve written it out.)
 
 Sorry to be a bit sort of disagreeing with this fanvidbasics blog but I always think it’s a shame when people say things like “95% of scene selection is intuition” because it mystifies art and makes people believe they can’t learn how to do it. But they can!
 
@@ -54,12 +29,15 @@ Vidding, just like painting or drawing or writing or any art, has teachable and 
 
 Vidding has its own unique techniques obviously because it’s a whole and distinct artform, and you’re right to notice that flow is key to many successful vids. Flow is one of the core challenges of vidding (that is at all concerned with musicality) because you’re integrating scenes from across possibly years of a tv show or even multiple, completely different shows, into one percept or [gestalt](https://en.wikipedia.org/wiki/Gestalt_psychology). The question of how to do this has, frankly, obsessed me for years! :D My advice is this:
 
-### No clip is just itself.
+### <span class="hand">No clip is just itself.</span>
 
 Vids are like music: each clip acts in relationship to the one before and after, or else it’s just noise.
 
 Try thinking of each clip as actually three clips: IN LAND OUT. Your land* is your story clip. Put that down on your lyric (or leading up to your lyric or wherever you are placing it). Now put down your next story clip (or LAND). Now you need to connect them up. There are numerous methods. Here are three basic ones:
 
+</section>
+<hr/>
+<section class="copy" markdown="1">
 ### [Cutting on action](https://en.wikipedia.org/wiki/Cutting_on_action) or motion match.
 
 I laboriously intuited this a long time ago, and described it in [10TiK](http://fanlore.org/wiki/Ten_Things_I_Know_About_Vidding) like this:
@@ -83,31 +61,17 @@ Once you’ve got your IN LAND OUT sorted you can build out those sequences to d
 
 Again in [Expo](http://limvids.tumblr.com/post/95534697172/expo) at [2:14](https://www.youtube.com/watch?v=FuVsKk8sxVs&feature=youtu.be&t=134) I cut this 13 clip sequence in 5 seconds with 2 real lands. Here’s 9 clips in a row (screenshotting one frame from each) of pure raccord so you can see how simple shape and object matching can build up:
 
-<div id="slider" class="slideshow flexslider">
+<div class="slideshow">
 <ul class="slides">
-<li><img src="/assets/pics/posts/demyst/1.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/2.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/3.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/4.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/5.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/6.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/7.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/8.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/9.jpg" /></li>
-</ul>
-</div>
-<!--thumbnail carousel-->
-<div id="carousel" class="carousel flexslider">
-<ul class="slides">
-<li><img src="/assets/pics/posts/demyst/1.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/2.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/3.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/4.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/5.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/6.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/7.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/8.jpg" /></li>
-<li><img src="/assets/pics/posts/demyst/9.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/1.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/2.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/3.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/4.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/5.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/6.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/7.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/8.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/9.jpg" /></li>
 </ul>
 </div>
 
@@ -134,58 +98,64 @@ Which reminds me, in [Pteryx's interview](/articles/vidders/interview) she talks
 
 Just spend some time watching these credits and look for motion matches, graphic matches. This is like that, this is like that. Once you start seeing them you'll notice this all over.
 
-<div class="slideshow flexslider">
+<div class="dark slideshow">
 <ul class="slides">
 <li>
-<figure class="image">
+<figure>
 <img src="/assets/pics/posts/demyst/somersault.gif" />
-<figcaption>Dawn's eyebrow takes up the motion line. The motion builds a space by bouncing itself against "walls".</figcaption>
+<figcaption>Dawn's eyebrow takes up the motion line. The motion builds a tangible space by bouncing itself against "walls".
+</figcaption>
 </figure>
 </li>
 
 <li>
-<figure class="image">
+<figure>
 <img src="/assets/pics/posts/demyst/eyebrow.gif" />
-<figcaption markdown="1">
-Watch it again with another eyebrow follow-through. Dawn is [the key](https://en.wikipedia.org/wiki/Follow_through_and_overlapping_action). :P 
+<figcaption>
+Watch it again with another eyebrow follow-through. Dawn is <a href="https://en.wikipedia.org/wiki/Follow_through_and_overlapping_action">the key</a>. :P 
 </figcaption>
 </figure>
 </li>
 
 <li>
-<figure class="image">
+<figure>
 <img src="/assets/pics/posts/demyst/willow.gif" />
-<figcaption markdown="1">
-See how the motion moves one way and then resolves back: the conceptual "room" must have some limits, some rigid bodies and colliders.
+<figcaption>
+See how the motion moves one way and then resolves back: just as music must resolvethe conceptual "room" must have some limits, some rigid bodies and colliders.
 </figcaption>
 </figure>
 </li>
-
-
 <li>
-<figure class="image">
+<figure>
 <img src="/assets/pics/posts/demyst/swing.gif" />
-<figcaption markdown="1">
-Swing the pendulum. Trace the [arc](https://www.google.co.uk/search?q=arc+in+animation)</figcaption>
+<figcaption>
+Swing the pendulum. Trace the <a href="https://www.google.co.uk/search?q=arc+in+animation">arc</a>
+</figcaption>
 </figure>
 </li>
 </ul>
 
 </div>
 
-
-
 *As well as the Friends titles; I mean, the Friends titles basically slowly teach you how to edit very simply to music- they start off with the [characters literally dancing](https://www.youtube.com/watch?v=Yku2ikCtBPQ&list=PLbEb562CLykFkNnkBN3tzX5oYSkp--CeZ&index=77) to the music and then gradually [over the years](https://www.youtube.com/playlist?list=PLliE8mqiSLjz1cVcyDSWId0q-HkWhG3Lz) replace each dance move with a clip from the show that dances in a similar way. There's a reason making Friends Style Credits is a gateway drug.
-</section>
 
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjwjynK1jmEnnQ5QXsnnLwKc" frameborder="0" allowfullscreen></iframe></div>
+<div class="slideshow">
+<ul class="slides">
+<li><div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjwjynK1jmEnnQ5QXsnnLwKc" frameborder="0" allowfullscreen></iframe></div></li>
+<li><div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjz1cVcyDSWId0q-HkWhG3Lz" frameborder="0" allowfullscreen></iframe></div></li>
+</ul>
+</div>
+
+</section>
 
 <section class="copy" markdown="1">
 ### Light building
 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/FuVsKk8sxVs?start=133&end=138&version=3" frameborder="0" allowfullscreen></iframe></div>
 
-This sequence from Expo also demonstrates a common technique in vidding that is less common elsewhere, which is light building, where you pulse and shimmer light sources for expressive effect. TV and film editing uses this a little - in bloom and solar transitions, in white flash cuts, and in blowouts, but not really to the extent and depth of fanvidding.
+That sequence from Expo also demonstrates a common technique in vidding that is less common elsewhere, which is light building, where you pulse and shimmer light sources for expressive effect. TV and film editing uses this a little - in bloom and solar transitions, in white flash cuts, and in blowouts, but not really to the extent and depth of fanvidding.
 
 The opposite is also heavily heavily used in fanvidding (the youtube fadebop), where fades to black are used to hit beats or blend scenes.
 

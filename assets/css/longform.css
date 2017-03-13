@@ -118,7 +118,7 @@ aside.full {float:none; width:90%; margin:auto;}
 /*colours, shapes etc */
 .invert {background:#4d394b; color:#f7f7f7;}
 .invert .invert {background:white; color:#4d394b;}
-.dark {background:black;}
+.dark {background:black; color:white;}
 
 .slope {transform: rotate(5deg); padding:1.5rem 15vw; margin:auto -15vw;}
 .slope section {transform: rotate(-5deg);}
@@ -138,6 +138,11 @@ aside.full {float:none; width:90%; margin:auto;}
 .column { padding:0 1.5rem}
 .bigger {font-size:larger;}
 .typeset {font-family:Oswald, sans-serif; font-weight:900; text-transform: uppercase; line-height: 1}
+
+/* solo fullscreen */
+.solo article header, .solo article footer {display:none}
+.solo header.site {background:rgba(255,255,255,0); margin-top:-50px; opacity:0; transition: all 2s ease}
+.solo header.site:hover {margin-top:0; opacity:1; background:rgba(255,255,255,0.95)}
 
 /* ===[ IMPORT COMPONENTS ] === */
 .reset {height:auto; width:auto; font-size:1rem; margin:auto;; padding:initial;}
