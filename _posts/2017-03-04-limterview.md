@@ -5,19 +5,28 @@ authors: [lim, gwyn]
 pitch: |
  Extended remarks from the Re:Create Coalition interview
 hero: assets/pics/posts/interview/images-head.jpg
-tools: [scrollify, youtube]
-fonts: ["Abril Fatface", Amatic SC"]
+tools: [scrollify]
+fonts: [Oswald, Meddon]
 resources: |
 code: |
+ article h2 {font:7vw/1.5 "Meddon", serif; text-align:center;}
+ #tos {clear:right}
 categories: [articles, vidding]
 ---
 <section class="copy" markdown="1">
 So four or five months ago I was asked to send some remarks to the Re:Create Coalition to help out their project. They caught me on one of my rare verbose days so I sent them a screed and told 'em to use anything that was helpful. The creator story is up on their site now. Anyway, here are the extended remarks from that conversation, with some of their questions as cues. This convo pretty much nudged me into doing this zine, so some of the ground covered here is explored further in other articles. 
 
 After the article came out (last week, I guess) I contacted the other vidder featured in it and asked her if she had said anything more she'd like to share (because I am nosy and like to get the goods!), and she very generously wrote up her remarks for us all as well. Whoo! Thanks, Gwyn! [go straight to Gwyn's remarks](#gwyn)
+
+~ lim
 </section>
 
+<hr />
+
 <section class="copy" markdown="1">
+## lim
+
+
 ### Tell us about you and your business/organization/project. How did you get started and how long have you been operating? ...
 
 I read over your questions and just tried to respond as best I can... I'm not a business or an organisation, good god! I’m a disorganisation, in operation around ten years, I suppose, give or take. I’m a vidder. I do vidding, which is an art movement and subculture made up of people, mostly women, from all over the world, who have a pretty wild and diverse set of aims and concerns and interests that I won’t attempt to represent fairly, or at all. :P But we all make short art films out of found footage (except when we make our own footage) edited choreographically (except when it isn’t) with music and other soundwork (except when it isn’t).
@@ -39,21 +48,17 @@ So the two “markets” don’t compete at all really. There’s nothing like v
 
 ### IP
 
+<aside class="right" markdown="1">
+(Novelty is interesting, isn’t it? It’s the basis of consumerism but you really have to work hard to train kids into it. If you have kids or know kids, you’ll know that when they’re small, they really want repetition - they think the best thing in the world is to read the same book twenty times in a row. Or sing the same song over and over. Or knock down blocks. My niece puts bricks in a bucket and shakes them, over and over. Again! Again! And you’ll know that it takes years, even, for them to really be thrilled by new toys at Christmas. That’s the joke isn’t it - I bought little Sophie all these marvellous toys and she’s just playing with the boxes.)
+</aside>
+
 And you know, culture can’t be owned. You can control expression, you can shut people down and scare them into silence, and put them in jail, of course, but you can’t stop them thinking unless you kill them, and with that so dies the culture. You can’t have it both ways. If you want to sell them your ideas, then you can’t stop those ideas living in their minds, shaping their thoughts, coming out again as speech. Intellectual property is a fantasy, really. Originality is a fantasy. In some ways vidding exposes this too starkly to be borne, perhaps - a lot of vidding technique is really about patterning, flow and raccord - showing this is like that, this is like that. Here is this scene, this man on his knees in the rain, holding his arms up, and here it is again and again and again, like an iconology, I suppose. It’s heresy.
 
 I can say what I like about the Queen, but I had better shut my mouth about Mickey Mouse or I will be TOSd, C&D'd, DMCAd, served, sued, chased offline. That’s interesting to me. I’m compelled to go there. Aren’t you? I can’t leave it alone. Ten years and I’m still stuck on that.
 
-<section class="invert">
-<div class="mid copy" markdown="1">
-(Novelty is interesting, isn’t it? It’s the basis of consumerism but you really have to work hard to train kids into it. If you have kids or know kids, you’ll know that when they’re small, they really want repetition - they think the best thing in the world is to read the same book twenty times in a row. Or sing the same song over and over. Or knock down blocks. My niece puts bricks in a bucket and shakes them, over and over. Again! Again! And you’ll know that it takes years, even, for them to really be thrilled by new toys at Christmas. That’s the joke isn’t it - I bought little Sophie all these marvellous toys and she’s just playing with the boxes.)
-</div>
-</section>
 
-<div class="parallax" id="tos">
-<h3>TOS</h3>
-</div>
+### TOS
 
-<section class="copy" markdown="1">
 ### Have you been faced with any copyright challenges since you first launched? 
 
 I’ve been tossed off so many sites - I can’t even remember them all: imeem was a big one - a lot of vidders invested a lot of energy into that site and we all got tossed in one go. I posted a vid called Us there in 2007, that went sort of viral and was part of an important moment in the community, a time of artistic and social change, and all those comments and that history is gone now. I wasn’t crying about it or anything; I’m just saying cause you asked. And Blip, I got tossed from blip a year or so ago. Vimeo, dailymotion I think? Some place with an orange header... soooo many. I don’t try new places any more. I only post to Youtube now, for streaming. Youtube tosses vidders all the time - there’s a lot of backchannel networking to re-find people once they are tossed - but it’s big enough that you can just re-join and re-up. Takedowns are more common and most vidders don’t contest them, but they do alter their vids to get around ContentId, so it [distorts the aesthetic](http://vidding.tumblr.com/post/149267417129/notes-towards-contentids-effects-on-vidding-fx).
@@ -62,10 +67,9 @@ I’ve been tossed off so many sites - I can’t even remember them all: imeem w
 
 I have had probably one third of all my vids taken down off Youtube. Nowadays I contest takedowns, because I am an Old now and so I feel obliged to do it for the kids. And I’ve always won, so far - they don’t really want to push it, they just want to bully you. But even if you do contest, your vid is still choked (The Choke is when your vid is suspended for 30 days and then when it comes online it doesn’t count as new so it doesn’t get into the sidebar or searches, so you can’t find your people). It’s not AS big a deal for me as I have my own site and people download directly from me when I am choked or tossed, but most vidders don’t have that. I’m very lucky to have that, for now. Of course that could get closed down. Anything could.
 
-<div class="youtube-player" data-id= ""></div>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/_yxHKgQyGx0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 When Youtube took [Us](https://www.youtube.com/watch?v=_yxHKgQyGx0) down, it was just after they had put it up on their front page as one of the [Landmarks of Youtube](https://youtube.googleblog.com/2009/11/curator-of-month-michael-wesch.html), LOL. That’s the first time I contested actually, in 2009. Before that I had just accepted it, like the weather. But anyway that time I called in the OTW Legal to back me up because it properly vexed me, you know? Youtube liked it well enough when that vid was in museums and in the Library of Congress and all that, when academics were arguing that Youtube was [culturally important](https://www.youtube.com/watch?v=TPAO-lZ4_hU&list=PLliE8mqiSLjwoQ7sXRXkd-JEmFhtIfaur) should be protected from the RIAA because of remix, <em>because</em> of this UGC content, but not enough to actually do anything themselves to protect or support the content. We are just cattle, I get it. But even cattle get protection from the wolves! A fence. A guard-dog. I was so vexed!
-<div class="youtube-player" data-id= ""></div>
 
 Anyway, the process changes all the time, but it doesn’t stop. When I contested [Expo](http://limvids.tumblr.com/post/95534697172/expo#notes) Disney only choked me for the weekend, but I just fought a takedown on a vid called [Horse](/articles/vidding/legal) and Endemol choked me for three months, the fight took three months, and the forms now, oh my god, are terrifying! I had a lot of help - I had OTW help and a real life copyright lawyer and it was still absolutely arse gravy, the whole thing. I had to write a CV and put in my name and address and say I was prepared to go to jail. (Over a BBC fanvid, as well, which is extra depressing, really. I’m such a good girl. I pay my tv licence and I don’t even have a proper telly!) They never tell you the next step in the process so you are fighting blind. They design the forms to be intimidating. Most people don’t dare. It’s a chilling effect.
 
@@ -77,22 +81,25 @@ Vidding doesn’t rely on Youtube, or even the internet - it has been going sinc
 I’m a Youtube vidder, broadly of that generation, and I personally would never have vidded without the internet. The last 10 years, I was caring 24/7 the whole time I was vidding, so obviously I couldn’t access anything offline as I had no money and couldn’t go out anyway. So it was internet or nothing for me. And that’s true for a lot of people. There are people shut up all over the place who can’t get into the world any other way.
 
 I can't think of anything else to say. Perhaps at least some of this is useful.
-
-lim
 </section>
 
-<div class="youtube-player fullscreen" data-id="tzP8kBrXCP4"></div>
+<hr />
 
 <section class="copy" markdown="1">
 ## Gwyn
 
+> we called ourselves the Media Cannibals
+
 I did my interview on the phone from a hotel room in Washington DC, so I don't remember a lot of what I said exactly, but these are some of the things I wanted to discuss when we talked.
 
-I started vidding  on VCRs back in the mid-'90s as part of a group that called themselves the Media Cannibals. Back then fans used to trade tapes of vids or sell them at cons, but you didn't sell them to make money, you sold them to make back the cost of the duplicating and the cost of the tapes and the  mailing, all that stuff. When I started out, almost everything was done under the table, especially fanworks that were not heteronormative or for general audiences — you had to kind of do the <em>wink wink nudge nudge</em> thing, ask what they had under the table or if they knew anyone who had vid tapes (we called them songvids back then, to distinguish them from professional music videos). Vids were very much made for a fannish audience by fans, there was no wider network of distribution so outsiders never saw them really. 
+<blockquote class="sidequote right"><p>wink wink nudge nudge</p></blockquote>
+I started vidding on VCRs back in the mid-'90s as part of a group that called themselves the Media Cannibals. Back then fans used to trade tapes of vids or sell them at cons, but you didn't sell them to make money, you sold them to make back the cost of the duplicating and the cost of the tapes and the  mailing, all that stuff. When I started out, almost everything was done under the table, especially fanworks that were not heteronormative or for general audiences — you had to kind of do the <em>wink wink nudge nudge</em> thing, ask what they had under the table or if they knew anyone who had vid tapes (we called them songvids back then, to distinguish them from professional music videos). Vids were very much made for a fannish audience by fans, there was no wider network of distribution so outsiders never saw them really. 
 
-Most of the time you saw vids at cons and on the tapes you got from vidders. People were very afraid of vids getting out there into the mainstream at first; we saw a lot of potential for legal action against us and it was worrying. I know people who still do password their vids sites and don't post to streaming services.
+Most of the time you saw vids at cons and on the tapes you got from vidders. People were very afraid of vids getting out there into the mainstream at first; we saw a lot of potential for legal action against us and it was worrying. I know people who still do password their vid sites and don't post to streaming services.
 
 These days pretty much anybody can make a vid, but back then you had to spend a lot of money for the equipment, the supplies, all that stuff--it wasn't an easy entry point. You often had to be mentored into fandom and especially with vidding, you really had to have someone show you how to set the equipment up and use it. Aesthetic concepts were passed down from the teachers to the students, basically, and so the art form evolved that way. Then computers came along and with each successive generation it became easier and easier not just to make vids but to put them online.
+
+<blockquote class="sidequote left invert"><p>we're always trying to find new ways to distribute</p></blockquote>
 
 The copyright issues changed, too – with VCRs you had to worry about things like Macrovision, being able to duplicate large quantities of tapes somewhere and not get arrested or fined for it, that sort of thing. These days it's DRM  and whatever license a music company has with YouTube or Vimeo, blocking in certain countries  because their IP laws are different, etc. It's really a challenge, and outside of YouTube and Vimeo, a lot of the streaming places that vidders were using to host the vids have gone away, so we're always trying to find new ways to distribute them. But I mean, we were doing it through private and under the table networks before, so there will probably always be ways to get the vids out there as long as there are vids being made.
 
@@ -102,7 +109,7 @@ I think one of the reasons that vidding is looked down upon is because it's larg
 
 We also know that the people who produce movies and TV shows are usually men and rarely interested in the kinds of stories that we're interested in examining the way vids can allow you to: you can make a more intimate story or a character study or focus on visual aspects. Hollywood caters to the male gaze; they care more about explosions and superheroes beating the crap out of each other, but a lot of times fans would much rather have a story about two characters in a relationship, or they want to examine something that made a character who they are, or they might believe a character's queer, for instance, and want to represent that, or a woman who is relegated to the background can become the kickass central focus of a story in a way she'd never get to in the source. We know we'll never get to see that normally, and that's the cool thing about vidding--we find music that can tell the story we want to tell, and then we put the visuals together with it and voila--we have an entirely new tale.
 
-gwyn
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/JhwmhXDFnuE?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 </section>
 
