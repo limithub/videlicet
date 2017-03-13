@@ -83,7 +83,7 @@ aside.full {float:none; width:90%; margin:auto;}
 /*[ slider ] currently using juxtapose but might switch*/
 .slider iframe{min-height:100%;}
 /*[ slideshow ] using unslider*/
-.slideshow.dark {background:black;}
+.slideshow {max-height:100vh;}
 
 
 /*[ flipbook]*/
@@ -109,6 +109,7 @@ aside.full {float:none; width:90%; margin:auto;}
 
 /* ===[ block globals ] === */
 /*colours, shapes etc */
+.dark {background:black;}
 .invert {background:#4d394b; color:#f7f7f7;}
 .invert .invert {background:white; color:#4d394b;}
 

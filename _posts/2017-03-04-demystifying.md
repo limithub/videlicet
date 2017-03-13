@@ -5,7 +5,7 @@ authors: [lim]
 pitch: |
   Flow is a core challenge of vidding (that is at all concerned with musicality) because you’re integrating scenes from across possibly years of a tv show or even multiple, completely different shows, into one percept or gestalt. 
 heading: |
- <span class="hsjs">Demystifying</span> <span class="hsjs">Vidding</span>
+ <span class="slabtext">Demystifying</span> <span class="slabtext">Vidding</span>
 hero: default.jpg
 tools: [scrollify, slideshow]
 fonts: [Oswald]
