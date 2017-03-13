@@ -6,7 +6,7 @@ Zine is written with an eye toward simple longform layout and art direction to p
 
 A note for less technical users
 
-You can make posts through the user interface. The rest of this ReadMe is about writing files in a text editor and making changes to the code in the site and it is not in the least necessary to read or understand any of it to use Zine. 
+You can make posts through the user interface. TODO The rest of this ReadMe is about writing files in a text editor and making changes to the code in the site and it is not in the least necessary to read or understand any of it to use Zine. 
 
 -----------------------------------------------
 
@@ -51,7 +51,7 @@ If you prefer, you can download these scripts and serve them yourself from the /
 
 ### Looks
 
-Zine allows you to set various looks. Looks are things like custom fonts, page specific style, a hero picture , a legend (that you can set the line breaks on), and a colour scheme.
+Zine allows you to set various looks. Looks are things like custom fonts, page specific style, a hero picture , a legend (that you can set the line breaks on), and a colour scheme.(TODO on scheme)
 hero:
 legend: |
  <span
@@ -165,7 +165,7 @@ You can add loads of categories if you really want to.
 
 -----------------------------------------------------------------------------
 
-## Themes [not active yet]
+## Themes [not active yet] still vastly TODO
 
 Sassy
 The default is written in plain CSS. It's not really highly specified or complicated and it's easy to read if you know CSS at all. But if you prefer SASS, you can choose this theme. It's basically the same except the CSS is split up into little bits, for each story block or tool:

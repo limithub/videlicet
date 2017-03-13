@@ -139,6 +139,6 @@
   .unslider-arrow:hover {background-color: rgba(0,0,0,.5)}
 
   .unslider-arrow.prev {
-    left: 40px;
+    left: 50px;
     transform:rotate(180deg);
 }
