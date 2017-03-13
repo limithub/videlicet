@@ -62,7 +62,7 @@ footer p[role="navigation"] span.text {display:none;}
  /* ===[ Lists ]=== */
 ul.posts {margin:auto; max-width:95%; padding-top:100px;}
 
-li.cell {display: inline-block; opacity:0.8;float:left; width:100px; height:200px; padding:2vw; min-height:100px; background-color:rgb(65,45,60);
+li.cell {display: inline-block; opacity:0.8;float:left; width:100px; padding:2vw; min-height:100px; background-color:rgb(65,45,60);
 position:relative; transition: background .25s ease-in-out;}
 li.wide {width:200px;}
 li.tall {height:300px}

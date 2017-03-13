@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Loki on Pteryx"
-authors: [loki]
+authors: [loki, pteryx]
 pitch: |
  An in-depth and conversational interview between two of the hottest vidders on Youtube.
+heading: |
+ Loki on Pteryx
 hero: assets/pics/posts/interview/images-head.jpg
 tools: [scrollify, youtube]
 fonts: ["Abril Fatface", Amatic SC"]
@@ -13,7 +15,8 @@ code: |
  #images-head {background-image:url(/assets/pics/posts/interview/images-head.jpg); }
  #images-head blockquote {left:20%; top:20%;color:rgb(15,100,100); text-shadow:3px 5px 0px #fff; font-family:"Amatic SC"; font-size:3rem}
  .pullquote {max-width:100%; text-align:center; background:none; box-shadow:none}
- .content h3, .content h4 {font-family:"Abril Fatface"; font-size:10vw}
+ header h2 {text-align:center;}
+ header h2, .content h3, .content h4 {font-family:"Abril Fatface"; font-size:10vw}
 categories: [articles, vidding]
 ---
 <section class="copy" markdown="1">

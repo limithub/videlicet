@@ -7,52 +7,53 @@ pitch: |
 hero: giphy-terrorvision.gif
 tools: [slideshow]
 categories: [articles, vidding, resources]
+code: |
+ article header, article footer {display:none}
+ header.site {background:rgba(255,255,255,0); margin-top:-50px; opacity:0; transition: all 2s ease}
+ header.site:hover {margin-top:0; opacity:1; background:rgba(255,255,255,0.95)}
 ---
 
-<section class="slideshow"> <div class="flexslider"> <ul class="slides"> <li><img src="{{ site.baseurl}}/assets/pics/site/1.jpg" alt="" /></li> <li><img src="{{ site.baseurl}}/assets/pics/site/2.jpg" alt="" /></li> <li><img src="{{ site.baseurl}}/assets/pics/site/3.jpg" alt="" /></li> <li><img src="{{ site.baseurl}}/assets/pics/site/4.jpg" alt="" /></li> </ul> </div> </section>
 
-
-
-<div class="fullscreen video flexslider">
+<div class="slideshow dark">
 <ul class="slides">
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjwoQ7sXRXkd-JEmFhtIfaur" frameborder="0" allowfullscreen></iframe>
-	<figcaption class="flexcaption">Talking About Vidding (collab playlist)</figcaption>
+	<figcaption>Talking About Vidding (collab playlist)</figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjxV_zH1qWKjTZP6O12WY3RC" frameborder="0" allowfullscreen></iframe>
-	<figcaption class="flexcaption">Watch Me Edits and Live Edits</figcaption>
+	<figcaption>Watch Me Edits and Live Edits</figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjyZMLcdQnhisYVwoi_5suZw" frameborder="0" allowfullscreen></iframe>
-	<figcaption class="flexcaption">Vidder Promos 2016 (find <a href="https://www.youtube.com/user/blimvisible/playlists?shelf_id=8&view=50&sort=dd">previous years</a>)</figcaption>
+	<figcaption>Vidder Promos 2016 (find <a href="https://www.youtube.com/user/blimvisible/playlists?shelf_id=8&view=50&sort=dd">previous years</a>)</figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL6HA824S1lPhLHpGQ1fxusgxt4Kjhk5QC" frameborder="0" allowfullscreen></iframe>
-	<figcaption class="flexcaption">by <a href="https://www.youtube.com/user/sanattia">Sanattia</a></figcaption>
+	<figcaption>by <a href="https://www.youtube.com/user/sanattia">Sanattia</a></figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLSv6HN6vDQFssNmNiIN6uVEHekMRZGfec" frameborder="0" allowfullscreen></iframe>
-	<figcaption class="flexcaption">by <a href="https://www.youtube.com/user/deniedxaffection">deniedxaffection</a> (find <a href="https://www.youtube.com/user/blimvisible/playlists?shelf_id=9&view=50&sort=dd">more tutorials</a> playlists)</figcaption>
+	<figcaption>by <a href="https://www.youtube.com/user/deniedxaffection">deniedxaffection</a> (find <a href="https://www.youtube.com/user/blimvisible/playlists?shelf_id=9&view=50&sort=dd">more tutorials</a> playlists)</figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjza-CtpjXWbginiquw06VwG" frameborder="0" allowfullscreen></iframe>
 	<figcaption class="flexcaption">Test Your Skills aggregator. Find all the <a href="https://www.youtube.com/user/smska1995/playlists">playlists</a> over on <a href="https://www.youtube.com/user/smska1995">Pingvi</a>'s channel. </figcaption>
 	</figure>
 </li>
 <li>
-	<figure>
+	<figure class="video">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLliE8mqiSLjwR2PBB4BDHonTmayOdzM0a" frameborder="0" allowfullscreen></iframe>
 	<figcaption class="flexcaption">Vidder's Tag</figcaption>
 	</figure>

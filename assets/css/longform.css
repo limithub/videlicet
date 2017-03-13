@@ -45,7 +45,14 @@ blockquote.long {}
 .sidequote { max-width: 18rem; padding:1rem 0.5rem; border:6px double #fff; margin:auto 0.5rem;}
 .sidequote.left {margin-left:0;}
 .sidequote.right {margin-right:0;}
-.speechbubble { max-width:12em; min-height:3em; padding:2em 1em; margin:1em auto; text-align:center; border-radius:1.5rem; border:10px solid;}
+
+
+.speechbubble
+{position: relative;display:inline-block; max-width:240px; min-height:1.5em; padding: 20px; background:white; ;border: #7F7F7F solid 2px;border-radius:30px}
+.speechbubble:after 
+{content: ""; position: absolute; bottom: -15px; left: 60%; border-width: 15px 15px 0;border-color: #FFFFFF transparent; display: block; width: 0; z-index: 1;}
+.speechbubble:before {content: ""; position: absolute;bottom: -19.5px; left: calc(60% - 3px) ;
+border-style: solid; border-width: 18px 18px 0; border-color: #7F7F7F transparent; display: block; width: 0; z-index: 0;}
 
 
 /*[ video ]*/
@@ -104,14 +111,14 @@ aside.full {float:none; width:90%; margin:auto;}
 .embed.twitter {}
 .embed.instagram {}
 
-.sketchfab iframe {width:100%; height:100%;}
+.sketchfab iframe {width:100%; min-height:480px;}
 .sketchfab p {text-align:right; font-size:smaller;}
 
 /* ===[ block globals ] === */
 /*colours, shapes etc */
-.dark {background:black;}
 .invert {background:#4d394b; color:#f7f7f7;}
 .invert .invert {background:white; color:#4d394b;}
+.dark {background:black;}
 
 .slope {transform: rotate(5deg); padding:1.5rem 15vw; margin:auto -15vw;}
 .slope section {transform: rotate(-5deg);}
