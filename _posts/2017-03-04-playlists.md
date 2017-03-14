@@ -6,7 +6,7 @@ pitch: |
  Playlists of: tricks and tips, watch me edits, VFX, recs, discussion, and vidder tag.
 hero: giphy-terrorvision.gif
 tools: [slideshow]
-categories: [articles, vidding, resources]
+categories: [articles, vidding]
 classes: [solo]
 ---
 

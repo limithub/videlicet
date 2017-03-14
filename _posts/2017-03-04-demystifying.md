@@ -7,7 +7,7 @@ pitch: |
 heading: |
  <span class="slabtext">Demystifying</span> <span class="slabtext">Vidding</span>
 hero: default.jpg
-tools: [scrollify, slideshow]
+tools: [scrollify, slideshow, slider]
 fonts: ["Oswald", "Rock Salt"]
 code: |
  .hand {font-family:"Rock Salt", sans-serif; font-size:larger;}
@@ -75,7 +75,7 @@ Again in [Expo](http://limvids.tumblr.com/post/95534697172/expo) at [2:14](https
 </ul>
 </div>
 
-Still with me? :P
+Still with me? :P Lemme expand a sec.
 
 Hey so right now Fool For Love is playing in the other room, so let's break <em>that</em> down a mo. It's Spike telling Buffy about killing his last slayer and it's a good example because it's two fights cut together, into one, explicitly, so it's easier to really <em>see</em> the matches. They are showing you the matches. The scenes are stitched together through these motion matches until they occupy the same space. By the [eyeline match](https://en.wikipedia.org/wiki/Eyeline_match), they can have 70s Spike addressing 2000s Buffy and it's perfectly coherent. 
 
@@ -87,7 +87,7 @@ Hey so right now Fool For Love is playing in the other room, so let's break <em>
 </figure>
 </aside>
 
-Consider that these two scenes are really four scenes - that all fight scenes are really shot as (at least two) separate scenes cut together; the actors and the stunt doubles both act out the scenes and then their motions are matched and cut together to form one percept.
+Consider that these two scenes are really four scenes - that all fight scenes are really shot as (at least two) separate scenes cut together because the actors and the stunt doubles both act out the scenes and then their motions are matched and cut together to form one percept.
 
 Now realise ALL continuity editing does this - even in the same scene with the same actors. You can connect <em>any</em> clip to <em>any other</em> clip, from anything, so long as there's some continuity of form: in shape, colour, motion, eyeline...  
 
@@ -100,6 +100,14 @@ Just spend some time watching these credits and look for motion matches, graphic
 
 <div class="dark slideshow">
 <ul class="slides">
+<li>
+<div class="juxtapose slider" data-startingposition="85%">
+<img src="/assets/pics/posts/demyst/spike1.jpg" data-label="first clip"/>
+<img src="/assets/pics/posts/demyst/spike2.jpg" data-label="sequential clip"/>
+</div>
+<p>See the graphic match on Spike's hand</p>
+</li>
+
 <li>
 <figure>
 <img src="/assets/pics/posts/demyst/somersault.gif" />
@@ -121,7 +129,7 @@ Watch it again with another eyebrow follow-through. Dawn is <a href="https://en.
 <figure>
 <img src="/assets/pics/posts/demyst/willow.gif" />
 <figcaption>
-See how the motion moves one way and then resolves back: just as music must resolvethe conceptual "room" must have some limits, some rigid bodies and colliders.
+See how the motion moves one way and then <a href="https://en.wikipedia.org/wiki/Resolution_(music)">resolves</a> back: the conceptual "room" must have some limits, some rigid bodies and colliders.
 </figcaption>
 </figure>
 </li>
