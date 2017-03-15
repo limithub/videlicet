@@ -1,0 +1,40 @@
+---
+---
+
+$stops: ();
+$totalStops:12;
+$radius:0.9;
+
+@for $i from 0 through $totalStops{
+  $stops:  append($stops,hsl($i *(360deg/$totalStops),100%,50%),comma);
+}
+
+.rainbow{
+  width: 100vh * $radius;
+  height: 100vh * $radius;
+  position: absolute; 
+  top: 50%; 
+  left:50%;
+  transform:translate(-50%, -50%);
+  
+  background: #000;
+  background: 
+    radial-gradient(
+      circle closest-side,
+      hsl(0,0%,100%),
+      hsl(0,0%,0%) 90%
+    ),
+    conic-gradient($stops);
+    border: 5px solid #fff;
+    box-shadow: 0px 5px 10px rgba(#000,0.5);
+    background-blend-mode: screen;
+    border-radius: 50%
+}
+
+@media screen and (orientation : portrait){
+
+  .rainbow{
+    width: 100vw * $radius;
+    height: 100vw * $radius;
+  }
+}

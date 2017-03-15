@@ -1,6 +1,6 @@
 ---
 layout: about
-name: "kiki_miserychic"
+name: "kiki miserychic"
 bio: |
  I've been vidding since 2003 and I tend to approach it as an art form.
 socials:

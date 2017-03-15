@@ -49,5 +49,8 @@ a[title="tumblr"]:before {content:"\f173"; background: #36465D;}
 a[title="vimeo"]:before {content:"\f27d"; background:#1AB7EA;}
 a[title="ask"]:before {content:"\f128"; background:#FF643C;}
 a[title="website"]:before {content:"\f2dc"; background:#000;}
+a[title="instagram"]:before {content:"\f16d"; background:#000; 
+background:linear-gradient(#400080, transparent), linear-gradient( 200deg, #d047d1, #ff0000, #ffff00);}
+
 /*MISC 
 article.featured:before{ content: "\f01a"; font-family: 'FontAwesome'; display:block;text-align:right; font-size:10vh; margin:-15vh 4vw auto}*/

@@ -2,18 +2,20 @@
 layout: about
 name: "hollywoodgrrl"
 bio: |
- Bacon ipsum dolor amet short ribs turducken leberkas ham hock. Pork loin chicken alcatra turkey beef ribs shoulder boudin. Rump prosciutto pork chop pig shank, landjaeger ham salami strip steak drumstick brisket pork tenderloin boudin. Pork belly ham hock bacon cow porchetta capicola short loin short ribs salami brisket. Turkey meatloaf alcatra, short loin prosciutto beef andouille cupim.
-
- Beef ribs pig pastrami ham hock ribeye swine alcatra capicola filet mignon landjaeger jowl brisket ball tip sirloin cow. Cow meatloaf pork, turducken prosciutto turkey ball tip shoulder pig burgdoggen flank t-bone filet mignon sausage. Tenderloin pork loin corned beef, strip steak porchetta picanha frankfurter alcatra capicola chuck cupim. Pork belly meatloaf ground round pig, turducken andouille kielbasa swine ribeye tri-tip. Ground round doner burgdoggen flank, shankle capicola cupim spare ribs short ribs bacon.
-ao3:
-ask:
-dreamwidth:
-livejournal:
-tumblr: 
-twitter:
-vimeo:
-website:
-youtube:
-icon:
+ nyu film school grad. video editor. writer. professional fangirl.
+socials:
+ -
+  site: tumblr
+  url: http://hollywoodgrrl.tumblr.com/tagged/my+vids
+ -
+  site: youtube
+  url: https://www.youtube.com/c/hollywoodgrrl
+ - 
+  site: livejournal
+  url: http://sync-slaying.livejournal.com/
+ -
+  site: twitter
+  url: https://twitter.com/hollywoodgrrl
+icon: hwg.gif
 categories: [about, people]
 ---

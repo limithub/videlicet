@@ -30,6 +30,8 @@ li.tall {height:300px}
 #{{post.id | slugify}} {background-image: url("{% if post.hero %}/assets/pics/heroes/980/{{post.hero }} {% else %} {{ site.defaultpic }} {% endif %}");} 
 {% endfor %}
 
+canvas {width:800px}
+
 }
 
 /* ===[ 480]==*/
@@ -62,6 +64,8 @@ header.site a {color:#fff; }
 {% for post in site.posts %}
 #{{post.id | slugify}} {background-size:cover; background-image: url("{% if post.hero %}/assets/pics/heroes/480/{{post.hero }} {% else %} {{ site.defaultpic }} {% endif %}");} 
 {% endfor %}
+
+canvas {width:320px}
 
 }
 

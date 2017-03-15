@@ -2,9 +2,7 @@
 layout: about
 name: "bironic"
 bio: |
- Bacon ipsum dolor amet short ribs turducken leberkas ham hock. Pork loin chicken alcatra turkey beef ribs shoulder boudin. Rump prosciutto pork chop pig shank, landjaeger ham salami strip steak drumstick brisket pork tenderloin boudin. Pork belly ham hock bacon cow porchetta capicola short loin short ribs salami brisket. Turkey meatloaf alcatra, short loin prosciutto beef andouille cupim.
-
- Beef ribs pig pastrami ham hock ribeye swine alcatra capicola filet mignon landjaeger jowl brisket ball tip sirloin cow. Cow meatloaf pork, turducken prosciutto turkey ball tip shoulder pig burgdoggen flank t-bone filet mignon sausage. Tenderloin pork loin corned beef, strip steak porchetta picanha frankfurter alcatra capicola chuck cupim. Pork belly meatloaf ground round pig, turducken andouille kielbasa swine ribeye tri-tip. Ground round doner burgdoggen flank, shankle capicola cupim spare ribs short ribs bacon.
+ Although passionately fannish since childhood, bironic only started posting fanfiction online in 2005 and vids in 2009. Her forever fandoms include Star Trek, the Vampire Chronicles, Buffy the Vampire Slayer and Harry Potter. She lives in the Boston area.
 socials:
  -
   site: ao3
@@ -21,9 +19,6 @@ socials:
  - 
   site: livejournal
   url: http://bironic.livejournal.com/
- -
-  site: twitter
-  url: https://twitter.com/intimations
 icon: bironic.jpg
 categories: [about, people]
 ---

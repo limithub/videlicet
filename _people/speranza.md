@@ -22,6 +22,6 @@ socials:
  -
   site: website
   url: http://www.trickster.org/speranza/
-icon:
+icon: speranza.png
 categories: [about, people]
 ---

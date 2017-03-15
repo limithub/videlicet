@@ -2,28 +2,32 @@
 layout: about
 name: "albymangroves"
 bio: |
- Bacon ipsum dolor amet short ribs turducken leberkas ham hock. Pork loin chicken alcatra turkey beef ribs shoulder boudin. Rump prosciutto pork chop pig shank, landjaeger ham salami strip steak drumstick brisket pork tenderloin boudin. Pork belly ham hock bacon cow porchetta capicola short loin short ribs salami brisket. Turkey meatloaf alcatra, short loin prosciutto beef andouille cupim.
-
- Beef ribs pig pastrami ham hock ribeye swine alcatra capicola filet mignon landjaeger jowl brisket ball tip sirloin cow. Cow meatloaf pork, turducken prosciutto turkey ball tip shoulder pig burgdoggen flank t-bone filet mignon sausage. Tenderloin pork loin corned beef, strip steak porchetta picanha frankfurter alcatra capicola chuck cupim. Pork belly meatloaf ground round pig, turducken andouille kielbasa swine ribeye tri-tip. Ground round doner burgdoggen flank, shankle capicola cupim spare ribs short ribs bacon.
+ I art. I art a lot. Traditional materials are my schtick.
 socials:
  -
   site: ao3
-  url: https://archiveofourown.org/users/astolat
+  url: ttp://archiveofourown.org/users/Alby_Mangroves
  -
   site: tumblr
-  url: http://astolat.tumblr.com/
- -
-  site: youtube
-  url: https://www.youtube.com/user/astolatvids
+  url: http://albymangroves.tumblr.com
+ - 
+  site: tumblr
+  url: http://artgroves.tumblr.com/
  -
   site: dreamwidth
-  url: http://astolat.dreamwidth.org/
+  url: http://alby-mangroves.dreamwidth.org/
  - 
   site: livejournal
-  url: http://astolat.livejournal.com/
+  url: http://alby-mangroves.livejournal.com/
  -
   site: twitter
-  url: https://twitter.com/intimations
+  url: https://twitter.com/albymangroves
+ -
+  site: instagram
+  url: https://www.instagram.com/artgroves/
+ - 
+  site: deviantart
+  url: http://artgroves.deviantart.com/
 icon: alby.jpg
 categories: [about, people]
 ---

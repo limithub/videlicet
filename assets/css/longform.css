@@ -68,7 +68,7 @@ figure iframe {min-height:460px;}
 .left img {margin:1rem 1rem 1rem 0}
 .parallax {height: 600px; height:50vw;  background-position: 50% 50%; background-repeat: no-repeat;background-attachment:fixed; background-size: cover;}
 .parallax .container {position:relative;}
-blockquote.parallax, .parallax h2, .parallax h3{ line-height:600px; line-height:50vw; text-align:center; color:#fff; font-size:5rem; font-size:8vw; word-break:keep-all; white-space: nowrap; text-shadow:0px 0px 1px #000; text-transform:uppercase}
+blockquote.parallax, .parallax h2, .parallax h3{ line-height:600px; line-height:50vw; text-align:center; color:#fff; font-size:5rem; font-size:8vw; text-shadow:0px 0px 1px #000; text-transform:uppercase}
 
 .mask {background-size: 49% auto; background-attachment: fixed; background-repeat: no-repeat;}
 .mask .copy {width:49%; margin-right:0}
@@ -89,8 +89,11 @@ aside.full {float:none; width:90%; margin:auto;}
 
 /*[ slider ] currently using juxtapose but might switch*/
 .slider iframe{min-height:100%;}
+figure.slider img {width:auto;}
 /*[ slideshow ] using unslider*/
-.slideshow {max-height:100vh;}
+
+.slideshow.max figure {max-height:1200px;}
+.slideshow.max img {max-height:1200px; max-width:1600px;}
 
 
 /*[ flipbook]*/
@@ -101,6 +104,7 @@ aside.full {float:none; width:90%; margin:auto;}
 /*[ timeline ]*/
 .timeline {}
 /*[ flowchart ]*/
+
 .flowchart {}
 /*[ generic chat ]*/
 .chat {font-family: monospace; opacity:0.9;}
@@ -140,9 +144,11 @@ aside.full {float:none; width:90%; margin:auto;}
 .typeset {font-family:Oswald, sans-serif; font-weight:900; text-transform: uppercase; line-height: 1}
 
 /* solo fullscreen */
+.solo {background:black;}
+.solo article {background:black; color:#f7f7f7;}
 .solo article header, .solo article footer {display:none}
-.solo header.site {background:rgba(255,255,255,0); margin-top:-50px; opacity:0; transition: all 2s ease}
-.solo header.site:hover {margin-top:0; opacity:1; background:rgba(255,255,255,0.95)}
+.solo header.site {background:rgba(255,255,255,0); height:2px; overflow:hidden; opacity:0; transition: all 1s ease}
+.solo header.site:hover {height:auto; overflow:visible; opacity:1; background:rgba(255,255,255,0.95)}
 
 /* ===[ IMPORT COMPONENTS ] === */
 .reset {height:auto; width:auto; font-size:1rem; margin:auto;; padding:initial;}

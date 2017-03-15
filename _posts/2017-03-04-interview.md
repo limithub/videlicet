@@ -9,14 +9,18 @@ heading: |
 hero: assets/pics/posts/interview/images-head.jpg
 tools: [scrollify, youtube]
 fonts: ["Abril Fatface", Amatic SC"]
-resources: |
 code: |
  .loki, .pteryx {font-family:"bromelloregular", sans-serif; font-size:2rem; margin-right:1rem}
  #images-head {background-image:url(/assets/pics/posts/interview/images-head.jpg); }
- #images-head blockquote {left:20%; top:20%;color:rgb(15,100,100); text-shadow:3px 5px 0px #fff; font-family:"Amatic SC"; font-size:3rem}
+ .splash blockquote {left:20%; top:20%;color:rgb(15,100,100); text-shadow:3px 5px 0px #fff; font-family:"Amatic SC"; font-size:3rem}
  .pullquote {max-width:100%; text-align:center; background:none; box-shadow:none}
- header h2 {text-align:center;}
- header h2, .content h3, .content h4 {font-family:"Abril Fatface"; font-size:10vw}
+ #division {background-image:url(/assets/pics/posts/interview/division.jpg)}
+ #division blockquote {left:50%; top:50%}
+ article header h2 {text-align:center;}
+ article header h2, .content h3, .content h4 {font-family:"Abril Fatface"; font-size:10vw;}
+ section#process {background:#fff; background: linear-gradient(rgba(255,255,255,0.9), rgba(230,230,250,0.75), rgba(255,255,255,0.9));}
+ h3#process { text-shadow:-2px -2px 1px #fff}
+ 
 categories: [articles, vidding]
 ---
 <section class="copy" markdown="1">
@@ -44,7 +48,7 @@ I’ve always had this way of thinking.</blockquote>
 
 
 <section class="copy" markdown="1">
-### Tell me how you started.
+### The Beginning
 
 <span class="question"><span class="loki">Loki: </span>Tell me how you started. How did you get your username – Pteryx?</span>
 
@@ -73,7 +77,8 @@ My first fandom music videos were for the tv show ‘Heroes’. I watched the sh
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OOjnvQP4cZU" frameborder="0" allowfullscreen></iframe>
 </section>
 
-<section class="copy" markdown="1">
+<section id="process">
+<div class="copy" markdown="1">
 ### Process
 
 <span class="question"><span class="loki">Loki: </span>What program do you work in? What was the very first thought you had when you opened it?</span>
@@ -90,15 +95,8 @@ My first fandom music videos were for the tv show ‘Heroes’. I watched the sh
 
 <span class="pteryx">Pteryx: </span>Personally I think that you can leave everything as it is, and I usually color correct everything last. I mean, I want to make something that I’d like without the color correction. The colorings I usually use are neutral and natural, I just add contrast and saturation. I love purple tones. I guess you can notice that watching my videos. And then I just work with each individual clip on my timeline depending on the original color correction, because different footage has different color correction and I try to even everything out.
 
-<div class="colour-wheel">
-<span class="red alpha"></span>
-<span class="orange"></span>
-<span class="yellow"></span>
-<span class="green"></span>
-<span class="blue"></span>
-<span class="purple"></span>
-<span class="pink"></span>
-<span class="red beta"></span>
+<div class="rainbow"></div>
+</section>
 </div>
 </section>
 

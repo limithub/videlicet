@@ -8,19 +8,19 @@ bio: |
 socials:
  -
   site: ao3
-  url: https://archiveofourown.org/users/morgandawn
+  url: https://archiveofourown.org/users/[]
  -
   site: tumblr
-  url: http://meedeee.tumblr.com/
+  url: http://[].tumblr.com/
  -
   site: youtube
-  url: https://www.youtube.com/user/
+  url: https://www.youtube.com/user/[]
  -
   site: dreamwidth
-  url: http://morgandawn.dreamwidth.org/
+  url: http://[].dreamwidth.org/
  - 
   site: livejournal
-  url: http://morgandawn.livejournal.com/
+  url: http://[].livejournal.com/
  -
   site: twitter
   url: https://twitter.com/
