@@ -14,12 +14,9 @@ code: |
 categories: [articles, vidding]
 ---
 <section class="copy" markdown="1">
-This is [a post from my tumblr](http://limvids.tumblr.com/post/139653063417/demystifying-vidding#notes) that people seem to find pretty useful, so I've dragged it out again and expanded it a bit. 
-</section>
-<section class="copy" markdown="1">
-
 > We can’t really tell you how to pick the perfect scene, because 95% of scene selection is intuition. <br/>~ fanvidbasics
 
+This is [a post from my tumblr](http://limvids.tumblr.com/post/139653063417/demystifying-vidding#notes) that people seem to find pretty useful, so I've dragged it out again and expanded it a bit. OK back to the text:
 
 Sorry to be a bit sort of disagreeing with this fanvidbasics blog but I always think it’s a shame when people say things like “95% of scene selection is intuition” because it mystifies art and makes people believe they can’t learn how to do it. But they can!
 
@@ -38,7 +35,7 @@ Try thinking of each clip as actually three clips: IN LAND OUT. Your land* is yo
 </section>
 <hr/>
 <section class="copy" markdown="1">
-### [Cutting on action](https://en.wikipedia.org/wiki/Cutting_on_action) or motion match.
+### 1 [Cutting on action](https://en.wikipedia.org/wiki/Cutting_on_action) or motion match.
 
 I laboriously intuited this a long time ago, and described it in [10TiK](http://fanlore.org/wiki/Ten_Things_I_Know_About_Vidding) like this:
 
@@ -55,7 +52,7 @@ It took me years to work this out but it turns out it’s basic continuity editi
 
 </section>
 <section class="copy" markdown="1">
-### Raccord or [graphic match](https://en.wikipedia.org/wiki/Match_cut) cut
+### 2 Raccord or [graphic match](https://en.wikipedia.org/wiki/Match_cut) cut
 
 Once you’ve got your IN LAND OUT sorted you can build out those sequences to do more interesting things or go for longer. You can cut very quickly with similar shapes. Try varying the size and lightness of the shapes to achieve pulsing or beat expression. Try scaling up and moving around to blend flow and motion.
 
@@ -74,10 +71,25 @@ Again in [Expo](http://limvids.tumblr.com/post/95534697172/expo) at [2:14](https
 <li class="image"><img src="/assets/pics/posts/demyst/9.jpg" /></li>
 </ul>
 </div>
+</section>
 
-Still with me? :P Lemme expand a sec.
+<section class="copy" markdown="1">
+### 3 Light building
 
-Hey so right now Fool For Love is playing in the other room, so let's break <em>that</em> down a mo. It's Spike telling Buffy about killing his last slayer and it's a good example because it's two fights cut together, into one, explicitly, so it's easier to really <em>see</em> the matches. They are showing you the matches. The scenes are stitched together through these motion matches until they occupy the same space. By the [eyeline match](https://en.wikipedia.org/wiki/Eyeline_match), they can have 70s Spike addressing 2000s Buffy and it's perfectly coherent. 
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/FuVsKk8sxVs?start=133&end=138&version=3" frameborder="0" allowfullscreen></iframe></div>
+
+That sequence from Expo also demonstrates a common technique in vidding that is less common elsewhere, which is light building, where you pulse and shimmer light sources for expressive effect. TV and film editing uses this a little - in bloom and solar transitions, in white flash cuts, and in blowouts, but not really to the extent and depth of fanvidding.
+
+The opposite is also heavily heavily used in fanvidding (the youtube fadebop), where fades to black are used to hit beats or blend scenes. 
+
+</section>
+<section class="copy" markdown="1">
+
+### ...And then I wanted more
+
+OK so lemme expand a sec on matching.
+
+So right now Fool For Love is playing in the other room; let's break <em>that</em> down briefly. The scene is Spike telling Buffy about killing his last slayer and it's a good example because it's two fights cut together, into one, explicitly, so it's easier to really <em>see</em> the matches. They are showing you the matches. The scenes are stitched together through these motion matches until they occupy the same space. By the [eyeline match](https://en.wikipedia.org/wiki/Eyeline_match), they can have 70s Spike addressing 2000s Buffy and it's perfectly coherent. 
 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vAKx9fHiAYM?start=120&end=333&version=3" frameborder="0" allowfullscreen></iframe></div>
 
@@ -145,7 +157,7 @@ Swing the pendulum. Trace the <a href="https://www.google.co.uk/search?q=arc+in+
 
 </div>
 
-*As well as the Friends titles; I mean, the Friends titles basically slowly teach you how to edit very simply to music- they start off with the [characters literally dancing](https://www.youtube.com/watch?v=Yku2ikCtBPQ&list=PLbEb562CLykFkNnkBN3tzX5oYSkp--CeZ&index=77) to the music and then gradually [over the years](https://www.youtube.com/playlist?list=PLliE8mqiSLjz1cVcyDSWId0q-HkWhG3Lz) replace each dance move with a clip from the show that dances in a similar way. There's a reason making Friends Style Credits is a gateway drug.
+*As well as the Friends titles; I mean, the Friends titles basically slowly teach you how to edit (very simply) to music- they start off with the [characters literally dancing](https://www.youtube.com/watch?v=Yku2ikCtBPQ&list=PLbEb562CLykFkNnkBN3tzX5oYSkp--CeZ&index=77) to the music and then gradually [over the years](https://www.youtube.com/playlist?list=PLliE8mqiSLjz1cVcyDSWId0q-HkWhG3Lz) replace each dance move with a clip from the show that dances in a similar way. There's a reason making Friends Style Credits is a gateway drug.
 
 <div class="slideshow">
 <ul class="slides">
@@ -158,14 +170,8 @@ Swing the pendulum. Trace the <a href="https://www.google.co.uk/search?q=arc+in+
 
 </section>
 
+<hr />
 <section class="copy" markdown="1">
-### Light building
-
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/FuVsKk8sxVs?start=133&end=138&version=3" frameborder="0" allowfullscreen></iframe></div>
-
-That sequence from Expo also demonstrates a common technique in vidding that is less common elsewhere, which is light building, where you pulse and shimmer light sources for expressive effect. TV and film editing uses this a little - in bloom and solar transitions, in white flash cuts, and in blowouts, but not really to the extent and depth of fanvidding.
-
-The opposite is also heavily heavily used in fanvidding (the youtube fadebop), where fades to black are used to hit beats or blend scenes.
 
 Once you’ve got your head round these three basic techniques, it’s easy to start noticing others, if you look. The next thing to look for is when people disrupt continuity, when they break the flow, and start to think about why you might do that. And then you get obsessed with [montage theory](https://en.wikipedia.org/wiki/Soviet_montage_theory). :P
 

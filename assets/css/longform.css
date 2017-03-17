@@ -73,11 +73,12 @@ blockquote.parallax, .parallax h2, .parallax h3{ line-height:600px; line-height:
 .mask {background-size: 49% auto; background-attachment: fixed; background-repeat: no-repeat;}
 .mask .copy {width:49%; margin-right:0}
 .tile {background-size: auto; background-repeat:repeat; background-position:top}
-.banner {background-clip: padding-box; background-repeat:no-repeat; background-position:top right; padding-top:45vh;}
+.banner {background-clip: padding-box; background-repeat:no-repeat; background-position:top right; padding-top:400px;}
 
 /*asides*/
 section aside {width:15vw; min-width:200px;
 	background:#ddd; padding:1rem; margin:1rem 0 1rem 1rem; float:right; font-size:1rem}
+aside.left {margin: 1rem 1rem 1rem 0;}
 aside.wider {width:33vw;}
 aside h5 { font-size: 2rem; margin:0}
 aside figure {margin: 0; overflow:hidden;}
@@ -113,6 +114,7 @@ figure.slider img {width:auto;}
 
 /*[ social media embeds ]*/
 .embed.twitter {}
+.twitter-tweet {margin:auto;}
 .embed.instagram {}
 
 .sketchfab iframe {width:100%; min-height:480px;}
