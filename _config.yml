@@ -18,7 +18,7 @@ defaultpic: /assets/pics/site/default.jpg
 
 collections:
   people:
-    output: true
+    output: false
     permalink: /about/people/:path/
 
 #site nav - 

@@ -25,10 +25,7 @@ this means responsive styles by viewport dimension
 li.cell {width:100px; height:200px; padding:2vw; min-height:100px;}
 li.wide {width:200px;}
 li.tall {height:300px}
-
-{% for post in site.posts %}
-#{{post.id | slugify}} {background-image: url("{% if post.hero %}/assets/pics/heroes/980/{{post.hero }} {% else %} {{ site.defaultpic }} {% endif %}");} 
-{% endfor %}
+li.cell {background-size: contain}
 
 canvas {width:800px}
 
@@ -43,7 +40,7 @@ li.cell, .tall, .wide {width:100%; height: auto; min-height:50px;}
 
 li.cell h4 {background:#55974a; padding:5vw}
 li.cell:nth-child(odd) h4 {background:#4d394b;}
-li.cell:nth-child(3n+2) h4{background:#187b9b;}
+li.cell:nth-child(3n+2) h4{background:rgb(210,115,150);}
 
 header.site {background:#4d394b;}
 header.site a {color:#fff; }
@@ -62,7 +59,7 @@ header.site a {color:#fff; }
 .mask {background-size:auto; background-attachment: scroll; padding-top:60vw}
 
 {% for post in site.posts %}
-#{{post.id | slugify}} {background-size:cover; background-image: url("{% if post.hero %}/assets/pics/heroes/480/{{post.hero }} {% else %} {{ site.defaultpic }} {% endif %}");} 
+#{{post.id | slugify}} {background-image:none;} 
 {% endfor %}
 
 canvas {width:320px}

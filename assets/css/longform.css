@@ -130,7 +130,7 @@ figure.slider img {width:auto;}
 .slope section {transform: rotate(-5deg);}
 
 .round {border-radius:50%;}
-
+.center {text-align: center;}
 .flow {display:inline-block;}
 .block {display:block}
 .left {float:left;}

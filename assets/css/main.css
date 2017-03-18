@@ -34,6 +34,7 @@ input[type="submit"]:hover {background:#4d394b;}
 /* ===[ Regions ]=== */
 
 .wrapper {min-height:70vh;}
+body.category article{background:linear-gradient(rgba(40,40,40,0.9), rgba(25,25,25,1)); min-height:100vh;}
 
 /* ===[ Header ]=== */
 header.site { position:fixed; z-index:100;width:100%; width:100vw;top:0; background:rgba(255,255,255,0.95);}
@@ -67,15 +68,16 @@ position:relative; transition: background .25s ease-in-out;}
 li.wide {width:200px;}
 li.tall {height:300px}
 
-ul.posts li:hover {background-color:rgba(210,115,150,1); background-image:none !important;}
+ul.posts li:hover {background-position:top left !important;}
 ul.posts blockquote {margin:auto 0; display:none;}
 .cell h4 {text-transform:uppercase; color:#fff; font-weight:100;font-family:Oswald;}
 
 {% for post in site.posts %}
-#{{post.id | slugify}} {background-color:{% cycle '#412d3c', '#55974a', '#FFCC1','#187b9b', '#974a86', '#4a6097', '#8B7D7B' %};
-background-image: url("{% if post.hero %}{{site.baseurl}}/assets/pics/heroes/480/{{post.hero }}{% endif %}"); 
+#{{post.id | slugify}} {background-color:#000;
+background-image: url("{% if post.hero %}{{site.baseurl}}/assets/pics/heroes/480/{{post.hero }}{% endif %}");
+background-size:300px auto; background-position: bottom right; background-repeat:no-repeat;
 
-{% if post.fonts %}font-family:{{ post.fonts | first | append ", sans-serif;"}} color: {{post.color}}  {% endif %} }
+{% if post.fonts %}font-family:{{ post.fonts | first |}}, sans-serif; color: {{post.color}};  {% endif %} text-shadow:1px 1px 0px rgba(0,0,0,0.5); }
 {% endfor %}
 
  /*===[ Site Pages: Home, About, People etc; ] ==*/

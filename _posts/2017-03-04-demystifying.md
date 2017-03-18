@@ -6,8 +6,8 @@ pitch: |
   Flow is a core challenge of vidding (that is at all concerned with musicality) because you’re integrating scenes from across possibly years of a tv show or even multiple, completely different shows, into one percept or gestalt. 
 heading: |
  <span class="slabtext">Demystifying</span> <span class="slabtext">Vidding</span>
-hero: default.jpg
-tools: [scrollify, slideshow, slider]
+hero: demyst.gif
+tools: [slideshow, slider]
 fonts: ["Oswald", "Rock Salt"]
 code: |
  .hand {font-family:"Rock Salt", sans-serif; font-size:larger;}

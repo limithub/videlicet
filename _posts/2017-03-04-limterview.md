@@ -2,9 +2,7 @@
 layout: post
 title:  "extended remarks"
 authors: [lim, gwyn]
-pitch: |
- Extended remarks from the Re:Create Coalition interview
-hero: assets/pics/posts/interview/images-head.jpg
+hero: extended.jpg
 tools: [scrollify]
 fonts: [Oswald, Meddon]
 resources: |

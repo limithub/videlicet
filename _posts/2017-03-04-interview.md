@@ -6,7 +6,7 @@ pitch: |
  An in-depth and conversational interview between two of the hottest vidders on Youtube.
 heading: |
  Loki on Pteryx
-hero: assets/pics/posts/interview/images-head.jpg
+hero: interview.gif
 tools: [scrollify, youtube]
 fonts: ["Abril Fatface", Amatic SC"]
 code: |
