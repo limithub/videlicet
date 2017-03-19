@@ -20,6 +20,16 @@ code: |
  article header h2, .content h3, .content h4 {font-family:"Abril Fatface"; font-size:10vw;}
  section#process {background:#fff; background: linear-gradient(rgba(255,255,255,0.9), rgba(230,230,250,0.75), rgba(255,255,255,0.9));}
  h3#process { text-shadow:-2px -2px 1px #fff}
+
+  @media screen and (max-width: 480px) {
+   #images-head {background-image:url(/assets/pics/posts/interview/480/images-head.jpg); }
+   #division {background-image:url(/assets/pics/posts/interview/480/division.jpg)}
+  }
+
+   @media screen and (max-width: 980px) {
+   #images-head {background-image:url(/assets/pics/posts/interview/980/images-head.jpg); }
+   #division {background-image:url(/assets/pics/posts/interview/980/division.jpg)}
+  }
  
 categories: [articles, vidding]
 ---
@@ -34,7 +44,7 @@ This interview has been translated from Russian by the endlessly talented Loki h
 <span class="loki">Loki: </span>[Pteryx](https://www.youtube.com/user/ThePteryx) is one of the most popular vidders in fandom, not only Russian, but English speaking as well.. She’s been making videos for more than five years and she has worked with many different fandoms, making us smile with her crack videos and cry over her dramatic ones. Her channel has thousands of subscribers and millions of views. She began with Torchwood, continued with [Sherlock BBC](https://www.youtube.com/playlist?list=PLwy8TDuR_MSU5zQGKDVD9jHXg2m8lvwbz), X-Files, [Doctor Who](https://www.youtube.com/playlist?list=PLwy8TDuR_MSWcQp3Kvt7PDz_sETSMaZ4k) and most recently [Captain America](https://www.youtube.com/playlist?list=PLwy8TDuR_MSUSxkMT3Z_bRzHYRNMgsMc6). She’s not stopping anytime soon. She frequently makes multifandom videos, and of course she’s famous for her yearly [mash-up cinematography](https://www.youtube.com/playlist?list=PLwy8TDuR_MSUrjPpmfAmDQ7w-8JkVO8HF) videos.
 </section>
 
-<section class="video fullscreen"><iframe width="560" height="315" src="https://www.youtube.com/embed/8EQwcLboCWw" frameborder="0" allowfullscreen></iframe></section>
+<section class="video fullscreen"><iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/8EQwcLboCWw" frameborder="0" allowfullscreen></iframe></section>
 
 <section class="copy columns">
 <p class="column"><span class="question"><span class="loki">Loki: </span>Describe yourself as a vidder in a few words.</span></p>
@@ -60,9 +70,9 @@ I’ve always had this way of thinking.</blockquote>
 
 <div class="columns">
 <div class="video column">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hFXTa2yeYWs" frameborder="0" allowfullscreen></iframe></div>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/hFXTa2yeYWs" frameborder="0" allowfullscreen></iframe></div>
 <div class="video column">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W7FJgMo-cPw" frameborder="0" allowfullscreen></iframe></div>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/W7FJgMo-cPw" frameborder="0" allowfullscreen></iframe></div>
 </div>
 
 
@@ -74,7 +84,7 @@ My first fandom music videos were for the tv show ‘Heroes’. I watched the sh
 </section>
 
 <section class="fullscreen video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OOjnvQP4cZU" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/OOjnvQP4cZU" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <section id="process">
@@ -120,7 +130,7 @@ My first fandom music videos were for the tv show ‘Heroes’. I watched the sh
 <span class="pteryx">Pteryx: </span>I can’t remember why I started doing that in the first place, but I do remember that I started using sound effect from the very first video. I think that if a video doesn’t have any sound effects at all then the video is bad. I don’t care actually, I watch the video, the whole picture. Personally I add sound effects because I need more drama. “Booms” are my kind I guess you could say. I add them to almost everything. Personally I use it to add emotion, sometimes to smooth transitions, to underline that jump between a calm song or sequence in the video and the tenser continuation.
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XgnCHPmVcpU" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/XgnCHPmVcpU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <span class="question"><span class="loki">Loki: </span>Do you use only those sounds that you can get from your source or do you use sound effects libraries at all? For example, Sherlock BBC has a lot of “Sherlock” sounds, especially during sequences of his deduction; another example, Captain America, has more “fight” sounds, etc.</span>
@@ -153,7 +163,7 @@ My first fandom music videos were for the tv show ‘Heroes’. I watched the sh
 All of this just stays up in my head. And then in the autumn I start trying to tie everything together. This year I wasn’t very motivated. In 2014 I really wanted to realize this idea, so I took the preparation much more seriously. 2015 was a very difficult year for personal reasons, so I finished the video mostly out of spite. It was some sort of protest on my end, like, I did it anyway, no matter how hard it was. I received very different feedback to that 2015 mash-up. First, there wasn’t a lot of comments, there was very little emotion from the viewers. All the comments were about clips and scenes and people asked me why I didn’t include this or that fandom even though I actually did. For a creator the feedback is everything. This year I wasn’t very motivated, a lot happened in my life. I started working on the 17th of November; I remember it clearly, because I messaged pingvi and said that I hadn’t even started yet and she said that I wouldn’t make it in time, but I did it.
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tz1poCLvYo4" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/tz1poCLvYo4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <span class="question"><span class="loki">Loki: </span>How do you choose movies? Do you check website and movie lists?</span>
@@ -175,7 +185,7 @@ All of this just stays up in my head. And then in the autumn I start trying to t
 </section>
 
 <section class="video fullscreen">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwy8TDuR_MSUSxkMT3Z_bRzHYRNMgsMc6" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwy8TDuR_MSUSxkMT3Z_bRzHYRNMgsMc6" frameborder="0" allowfullscreen></iframe>
 </section>
 
 <section class="copy" markdown="1">
@@ -190,7 +200,7 @@ All of this just stays up in my head. And then in the autumn I start trying to t
 <span class="pteryx">Pteryx: </span>The very first vidder whose work I fell in love with was [xWPrisonLoveMx](https://www.youtube.com/channel/UCO5onLYWr9tqeW3GtPB2H2A). Also [StygianFilms](https://www.youtube.com/user/StygianFilms/videos): there’s no color correction in their videos, there’s no extra sound effect. I also love [katrindepp](https://www.youtube.com/user/KatrinDepp)'s work. There was a time when people compared us a lot, especially when we were making videos for the same fandoms. It was a bit annoying, and I felt bad especially for her. Of course, [Pingvi](https://www.youtube.com/user/smska1995).
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vq5zbpSXqYQ" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/vq5zbpSXqYQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <span class="question"><span class="loki">Loki: </span>People sometimes ask me how to start making videos. Quite often what they mean is that they’re afraid people won’t watch their videos and they won’t have any subscribers. I try to explain that you should start doing it for the right reasons. If you like it, just do it, don’t try to chase the numbers.</span>
@@ -207,7 +217,7 @@ All of this just stays up in my head. And then in the autumn I start trying to t
 </section>
 
 <div class="fullscreen video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tzP8kBrXCP4" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/tzP8kBrXCP4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

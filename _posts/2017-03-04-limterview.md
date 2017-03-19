@@ -3,10 +3,11 @@ layout: post
 title:  "extended remarks"
 authors: [lim, gwyn]
 hero: extended.jpg
-tools: [scrollify]
+tools: []
 fonts: [Oswald, Meddon]
 resources: |
 code: |
+ 
  article h2 {font:7vw/1.5 "Meddon", serif; text-align:center;}
  #tos {clear:right}
 categories: [articles, vidding]

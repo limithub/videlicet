@@ -28,6 +28,7 @@ li.tall {height:300px}
 li.cell {background-size: contain}
 
 canvas {width:800px}
+.banner {padding-top:200px;}
 
 }
 
@@ -54,15 +55,19 @@ header.site a {color:#fff; }
 
 .post nav.posts a {display:block; float:none;}
 
+
+.copy {padding:1rem; }
 .columns {display:block;}
 .mask .copy, .sidequote {width:auto; margin:1.5rem auto; float:none;}
 .mask {background-size:auto; background-attachment: scroll; padding-top:60vw}
+blockquote {width:100% !important; font-size:1rem; margin:auto;}
 
 {% for post in site.posts %}
 #{{post.id | slugify}} {background-image:none;} 
 {% endfor %}
 
 canvas {width:320px}
+.banner {background-position:top left; padding-top:100px;}
 
 }
 

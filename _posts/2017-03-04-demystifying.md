@@ -60,15 +60,51 @@ Again in [Expo](http://limvids.tumblr.com/post/95534697172/expo) at [2:14](https
 
 <div class="slideshow">
 <ul class="slides">
-<li class="image"><img src="/assets/pics/posts/demyst/1.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/2.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/3.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/4.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/5.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/6.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/7.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/8.jpg" /></li>
-<li class="image"><img src="/assets/pics/posts/demyst/9.jpg" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/1.jpg" srcset="
+/assets/pics/posts/demyst/480/1.jpg 480w, 
+/assets/pics/posts/demyst/640/1.jpg 640w, 
+/assets/pics/posts/demyst/980/1.jpg 980w,
+/assets/pics/posts/demyst/1280/1.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/2.jpg" srcset="
+/assets/pics/posts/demyst/480/2.jpg 480w, 
+/assets/pics/posts/demyst/640/2.jpg 640w, 
+/assets/pics/posts/demyst/980/2.jpg 980w,
+/assets/pics/posts/demyst/1280/2.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/3.jpg" srcset="
+/assets/pics/posts/demyst/480/3.jpg 480w, 
+/assets/pics/posts/demyst/640/3.jpg 640w, 
+/assets/pics/posts/demyst/980/3.jpg 980w,
+/assets/pics/posts/demyst/1280/3.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/4.jpg" srcset="
+/assets/pics/posts/demyst/480/4.jpg 480w, 
+/assets/pics/posts/demyst/640/4.jpg 640w, 
+/assets/pics/posts/demyst/980/4.jpg 980w,
+/assets/pics/posts/demyst/1280/4.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/5.jpg" srcset="
+/assets/pics/posts/demyst/480/5.jpg 480w, 
+/assets/pics/posts/demyst/640/5.jpg 640w, 
+/assets/pics/posts/demyst/980/5.jpg 980w,
+/assets/pics/posts/demyst/1280/5.jpg 1280w" /></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/6.jpg" srcset="
+/assets/pics/posts/demyst/480/6.jpg 480w, 
+/assets/pics/posts/demyst/640/6.jpg 640w, 
+/assets/pics/posts/demyst/980/6.jpg 980w,
+/assets/pics/posts/demyst/1280/6.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/7.jpg" srcset="
+/assets/pics/posts/demyst/480/7.jpg 480w, 
+/assets/pics/posts/demyst/640/7.jpg 640w, 
+/assets/pics/posts/demyst/980/7.jpg 980w,
+/assets/pics/posts/demyst/1280/7.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/8.jpg" srcset="
+/assets/pics/posts/demyst/480/8.jpg 480w, 
+/assets/pics/posts/demyst/640/8.jpg 640w, 
+/assets/pics/posts/demyst/980/8.jpg 980w,
+/assets/pics/posts/demyst/1280/8.jpg 1280w"/></li>
+<li class="image"><img src="/assets/pics/posts/demyst/320/9.jpg" srcset="
+/assets/pics/posts/demyst/480/9.jpg 480w, 
+/assets/pics/posts/demyst/640/9.jpg 640w, 
+/assets/pics/posts/demyst/980/9.jpg 980w,
+/assets/pics/posts/demyst/1280/9.jpg 1280w"/></li>
 </ul>
 </div>
 </section>
@@ -94,7 +130,7 @@ So right now Fool For Love is playing in the other room; let's break <em>that</e
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/vAKx9fHiAYM?start=120&end=333&version=3" frameborder="0" allowfullscreen></iframe></div>
 
 <aside class="right">
-<figure><a href="https://archive.org/details/splashofdrop00wortuoft"><img src="/assets/pics/posts/demyst/splashdrop.gif" /></a>
+<figure><a href="https://archive.org/details/splashofdrop00wortuoft"><img src="/assets/pics/posts/demyst/320/splashdrop.gif" /></a>
 <figcaption>Really try to look at how things move</figcaption>
 </figure>
 </aside>
@@ -114,8 +150,16 @@ Just spend some time watching these credits and look for motion matches, graphic
 <ul class="slides">
 <li>
 <div class="juxtapose slider" data-startingposition="85%">
-<img src="/assets/pics/posts/demyst/spike1.jpg" data-label="first clip"/>
-<img src="/assets/pics/posts/demyst/spike2.jpg" data-label="sequential clip"/>
+<img src="/assets/pics/posts/demyst/320/spike1.jpg" srcset="
+/assets/pics/posts/demyst/480/spike1.jpg 480w, 
+/assets/pics/posts/demyst/640/spike1.jpg 640w, 
+/assets/pics/posts/demyst/980/spike1.jpg 980w,
+/assets/pics/posts/demyst/1280/spike1.jpg 1280w" data-label="first clip"/>
+<img src="/assets/pics/posts/demyst/320/spike2.jpg" srcset="
+/assets/pics/posts/demyst/480/spike2.jpg 480w, 
+/assets/pics/posts/demyst/640/spike2.jpg 640w, 
+/assets/pics/posts/demyst/980/spike2.jpg 980w,
+/assets/pics/posts/demyst/1280/spike2.jpg 1280w" data-label="sequential clip"/>
 </div>
 <p>See the graphic match on Spike's hand</p>
 </li>
